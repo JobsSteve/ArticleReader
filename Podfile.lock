@@ -1,0 +1,13 @@
+PODS:
+  - Kiwi (HEAD based on 2.1)
+  - REKit (HEAD based on 1.0.2)
+
+DEPENDENCIES:
+  - Kiwi (HEAD)
+  - REKit (HEAD)
+
+SPEC CHECKSUMS:
+  Kiwi: 054ef97d0e50c279b21113a0880a906fa153a7fd
+  REKit: 3b6b4228e39d7c120f2d33ecc06b2cc3fef2faf2
+
+COCOAPODS: 0.19.1

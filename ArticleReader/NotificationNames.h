@@ -1,0 +1,5 @@
+extern NSString *const AudioPlayerPlaybackPositionWasChangedNotification;
+extern NSString *const AudioPlayerDidLoadAudioNotification;
+extern NSString *const AudioPlayerWillStartPlayingNotification;
+extern NSString *const AudioPlayerWillStopPlayingNotification;
+extern NSString *const AudioPlayerVolumeDidChangeNotification;

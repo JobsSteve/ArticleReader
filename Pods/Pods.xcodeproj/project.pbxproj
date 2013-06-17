@@ -1,0 +1,1006 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01958D91C6574ECBB6536789 /* NSObject+KiwiMockAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE118E244B642B4A1112917 /* NSObject+KiwiMockAdditions.m */; settings = {}; };
+		01D5DF66801143A2AF8BAAA2 /* KWEqualMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 83978CB9F5ED41E8941E62A1 /* KWEqualMatcher.h */; settings = {}; };
+		0537292BD9A04AA294DC64E6 /* KWMatchVerifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 5383E219FFA44FDE8AEA93C3 /* KWMatchVerifier.m */; settings = {}; };
+		054FD4B36CC244EAB0352A95 /* NSObject+KiwiStubAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 02E1EB880B9B4BCF98BA7CC1 /* NSObject+KiwiStubAdditions.h */; settings = {}; };
+		07197AB37EF44419ABC4E043 /* KWExpectationType.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B9625F235694AAEBF8931EF /* KWExpectationType.h */; settings = {}; };
+		07737A05445242A69F2E6129 /* KWCallSite.m in Sources */ = {isa = PBXBuildFile; fileRef = E8AB3498BC584006B30894B9 /* KWCallSite.m */; settings = {}; };
+		085A20A1CF0147D79AAEB48C /* REUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CC810203D25415FB4890548 /* REUtil.h */; settings = {}; };
+		09F71F363B114ADE868A587A /* KWAny.h in Headers */ = {isa = PBXBuildFile; fileRef = 03056556AE3546C8B600F184 /* KWAny.h */; settings = {}; };
+		09F89D2CD01C4CA6B42CA129 /* KWCallSite.h in Headers */ = {isa = PBXBuildFile; fileRef = 59A98D693ACB4356A4B84022 /* KWCallSite.h */; settings = {}; };
+		0A45CF716E86429D9F18ED20 /* KWMatchers.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC37103796A4CA482059A4E /* KWMatchers.m */; settings = {}; };
+		0B71B9466C36442290B41D85 /* NSNumber+KiwiAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C86E8334F0249BE9E732E92 /* NSNumber+KiwiAdditions.h */; settings = {}; };
+		0C2CF7BD03A14A5E8DFF5A5F /* KWExample.h in Headers */ = {isa = PBXBuildFile; fileRef = 52866CE6A873424698186878 /* KWExample.h */; settings = {}; };
+		0E1C236876C745C18B5A6443 /* KWAfterAllNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 34B599C043A6410E9442C2C8 /* KWAfterAllNode.h */; settings = {}; };
+		0EDC6965DEC64E90A8E5B76C /* KWMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = DF50312DAECB4F70AF6FD6CC /* KWMatcher.h */; settings = {}; };
+		0F8CB29481054DE3A9556D92 /* NSObject+KiwiStubAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F27A27AB990A4E77A753D167 /* NSObject+KiwiStubAdditions.m */; settings = {}; };
+		12933F631181413090297610 /* KWWorkarounds.m in Sources */ = {isa = PBXBuildFile; fileRef = E721C890754747C99DE15207 /* KWWorkarounds.m */; settings = {}; };
+		132C1E19CAFA452EB30CB73F /* Kiwi.h in Headers */ = {isa = PBXBuildFile; fileRef = 5819110F5D474E16945B045D /* Kiwi.h */; settings = {}; };
+		146A95F4BEB84FC6B39642FE /* KWStringUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC5AC51999F4CF0B4FED46F /* KWStringUtilities.m */; settings = {}; };
+		15AFB6525D6E45A48FF6068D /* KWBeforeAllNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BFD07B82F114D21B61037A2 /* KWBeforeAllNode.m */; settings = {}; };
+		1AC2913ED4B84BC28220EA97 /* KWNull.m in Sources */ = {isa = PBXBuildFile; fileRef = C5EA10A4F9E6473482EDAA9D /* KWNull.m */; settings = {}; };
+		1AF1D23119E64CFEA4DD35D0 /* KWRegisterMatchersNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B81027A39B24175ABA4AEFE /* KWRegisterMatchersNode.h */; settings = {}; };
+		1BDC9D2B5025448DA4C92818 /* KWBeMemberOfClassMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = F355110C1EB0484293771B6B /* KWBeMemberOfClassMatcher.m */; settings = {}; };
+		1CD7F548AD7345A8896DD7FC /* NSObject+REObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 97E1467732994E879BBE858A /* NSObject+REObserver.m */; settings = {}; };
+		1D236714851D45889F095C79 /* KWFailure.h in Headers */ = {isa = PBXBuildFile; fileRef = 93A86ACC52E04BF6AD5798AA /* KWFailure.h */; settings = {}; };
+		1DD603DECCFA40559E121351 /* KiwiMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = CC3EE6F7F7CE4F4091E24AD5 /* KiwiMacros.h */; settings = {}; };
+		1EF131DB948B4D27A8E68C41 /* KWMessageTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = DD0ECAA90F5B41AE84E3EC09 /* KWMessageTracker.h */; settings = {}; };
+		1F88F279AD6F4BA990B2320D /* KWBlockNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 93E081207D6D4FABABEB306F /* KWBlockNode.h */; settings = {}; };
+		1FE95E5A20584ACE8FFD1EF7 /* KWContextNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BD466FA49CC4D6D892A117F /* KWContextNode.h */; settings = {}; };
+		213C644AE04E4A5DBBE023EC /* NSNumber+KiwiAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DFFAA5FB9BB04E5A9DEB121E /* NSNumber+KiwiAdditions.m */; settings = {}; };
+		232674091FAA46F7B59219AF /* KWStringUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 70AAC209BC28444EBBF14ACB /* KWStringUtilities.h */; settings = {}; };
+		237D11F92D6F48BABDC675E3 /* KWBlockRaiseMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = E51AF707727D4A03A9958E02 /* KWBlockRaiseMatcher.h */; settings = {}; };
+		238A41425F0C4016A6CD8D72 /* KWEqualMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F095863C88C4F43A43B77B1 /* KWEqualMatcher.m */; settings = {}; };
+		247E410130794E2CBC8DB407 /* NSValue+KiwiAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 06595801304C4DE5827693EE /* NSValue+KiwiAdditions.m */; settings = {}; };
+		25CAFA3E57B946639B680701 /* KWExample.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E58107E2D74416BB9564F4 /* KWExample.m */; settings = {}; };
+		2B7C5F51CBC54DAB9A5827C8 /* KWSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DAA71DD22A0408EBD3FA0E3 /* KWSpec.m */; settings = {}; };
+		2C7E144192E94182A79B112F /* KWExampleGroupBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 66249300FEE34BB6A6A5F52E /* KWExampleGroupBuilder.h */; settings = {}; };
+		2D564C16A74F4D51B7791880 /* KWStringContainsMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B653EBBC534927BB0DFFAA /* KWStringContainsMatcher.m */; settings = {}; };
+		30096D27162F43768B8C6872 /* KWObjCUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E11899E30C54F2F9F249CAD /* KWObjCUtilities.h */; settings = {}; };
+		37CA04D7AA0D452F8472F744 /* KWMatcherFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AFCC67B9E344743A162DA0F /* KWMatcherFactory.h */; settings = {}; };
+		3807A0C276EC4CA4AF7AF43B /* KWBeforeEachNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB05A44BA06444195F24259 /* KWBeforeEachNode.m */; settings = {}; };
+		3976ED0259BD4A5DB8FFB750 /* KWFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF60417E6B54970A5A6ACFB /* KWFormatter.m */; settings = {}; };
+		39AFBB891141428E958713D7 /* KWBlockNode.m in Sources */ = {isa = PBXBuildFile; fileRef = F75780891FF242F2B07ECD81 /* KWBlockNode.m */; settings = {}; };
+		3A1322F457F74912B72DD3C8 /* NSInvocation+KiwiAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2026A9D94C4F454FB2D308A5 /* NSInvocation+KiwiAdditions.m */; settings = {}; };
+		3A3E3FA754C14127896FC983 /* KWContainMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 4979F6018C3E417D9753E813 /* KWContainMatcher.m */; settings = {}; };
+		3AB8DA9C27FB481A8323CFB2 /* KWBeBetweenMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = FDB0527F56E04BA7B7FB569D /* KWBeBetweenMatcher.h */; settings = {}; };
+		3D5F712EDDA740A095251BA9 /* KWBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 3163CC3DD588462BA7B9097C /* KWBlock.m */; settings = {}; };
+		3D93A3A38613444D93A0D851 /* KWSpec.h in Headers */ = {isa = PBXBuildFile; fileRef = AC3F1468B96148C8B3170052 /* KWSpec.h */; settings = {}; };
+		3DF31751A53F4BDCB443BB3D /* KWCountType.h in Headers */ = {isa = PBXBuildFile; fileRef = 716775E6A5BC47B5947F8852 /* KWCountType.h */; settings = {}; };
+		40500AB5B5A64DA5B714D4D0 /* KWAfterEachNode.h in Headers */ = {isa = PBXBuildFile; fileRef = F67AC6F1474E4EB3A252C554 /* KWAfterEachNode.h */; settings = {}; };
+		40B1ADD82B93437793F081A3 /* KWProbePoller.m in Sources */ = {isa = PBXBuildFile; fileRef = 520A3FB996F94C9486BD6D6B /* KWProbePoller.m */; settings = {}; };
+		419EC85464B34BE6B9AF85A8 /* KWValue.h in Headers */ = {isa = PBXBuildFile; fileRef = DFCD76F042054C97835647E4 /* KWValue.h */; settings = {}; };
+		4246E486E6E641999390F3E8 /* KWBeKindOfClassMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E5321A76D64418CBE6B9BE1 /* KWBeKindOfClassMatcher.h */; settings = {}; };
+		4A31F73AA8594A2D8A459AAF /* KWInequalityMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 49C24F773D644F59A372C26C /* KWInequalityMatcher.h */; settings = {}; };
+		4D6EA91BCC5D449BBC685EC2 /* KWContainStringMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = C91DCCDEBB8C4A44991E80EC /* KWContainStringMatcher.h */; settings = {}; };
+		5041776AE80D44209E88A113 /* KWBeTrueMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E3BCFC38B9409F95105694 /* KWBeTrueMatcher.m */; settings = {}; };
+		507DA1D076724AFE87DB33E5 /* KiwiBlockMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 26A617AE66E54701B6D75703 /* KiwiBlockMacros.h */; settings = {}; };
+		5227C1DA32AC45F28BF9F669 /* KWExampleSuite.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E332105E1DD46B285C3D8CF /* KWExampleSuite.h */; settings = {}; };
+		52EC01B079524AB184799BE8 /* KWMatching.h in Headers */ = {isa = PBXBuildFile; fileRef = 5682E07089764958A117755E /* KWMatching.h */; settings = {}; };
+		546CA4975F4C4914BD2ED10F /* NSObject+KiwiVerifierAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EE26E9AFF2334FE6A34F8A2E /* NSObject+KiwiVerifierAdditions.m */; settings = {}; };
+		574336E374204EF3BE83A2EE /* NSObject+KiwiSpyAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BFB993E4FA3419295973473 /* NSObject+KiwiSpyAdditions.h */; settings = {}; };
+		5897A5DBA25B4F7FBF5BE929 /* KWExistVerifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D439D400D654116A03BBE41 /* KWExistVerifier.m */; settings = {}; };
+		5958EB0F9004430BB54CA3A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED11C5A1BDC344D3B7A5C74E /* Foundation.framework */; settings = {}; };
+		595990FA866A4E679F491B6A /* KWGenericMatchingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 96AC7B279E23458EAF4DE987 /* KWGenericMatchingAdditions.m */; settings = {}; };
+		5A7BF00F6B7A4954A69F5257 /* KWReceiveMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = F4BFD5DBF1AB4B568C079D1A /* KWReceiveMatcher.h */; settings = {}; };
+		5C3E2C89C61543E997CD56A9 /* KWIntercept.m in Sources */ = {isa = PBXBuildFile; fileRef = F9759C51A7FF41CAA7F57A0F /* KWIntercept.m */; settings = {}; };
+		5CB11F4BCF8441E0BE0BDD25 /* KWExampleNodeVisitor.h in Headers */ = {isa = PBXBuildFile; fileRef = 224C52DEC4C54F1CB5C3BEE9 /* KWExampleNodeVisitor.h */; settings = {}; };
+		5D90DE3E8718457889191E05 /* KWHaveValueMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 14BEFE15F83441CBA9390528 /* KWHaveValueMatcher.m */; settings = {}; };
+		5FF8F31DAD9A44AF98F613BB /* KWBeKindOfClassMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BA2761F55D3479C92474485 /* KWBeKindOfClassMatcher.m */; settings = {}; };
+		60A461F7D92E4080A2AE3AF3 /* NSMethodSignature+KiwiAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D1DBA3A10EF49548990E2E0 /* NSMethodSignature+KiwiAdditions.m */; settings = {}; };
+		6358AD331EA14953A3060BDD /* KWGenericMatchEvaluator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9E4514CDAB49DF8487902E /* KWGenericMatchEvaluator.m */; settings = {}; };
+		6629785C717A4DBF9CFA0DA9 /* KWStub.m in Sources */ = {isa = PBXBuildFile; fileRef = B1CE5245F22443209B73F58A /* KWStub.m */; settings = {}; };
+		67E82C8C8C884F16A25527D8 /* KWBeforeAllNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F70A6C2844D4853ABE8637C /* KWBeforeAllNode.h */; settings = {}; };
+		68C2D735D780443DBF41ACE2 /* KWAfterAllNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3911D75B15264FB09D2BFA1E /* KWAfterAllNode.m */; settings = {}; };
+		6B61A84F12DC44C6BDF4D430 /* KWVerifying.h in Headers */ = {isa = PBXBuildFile; fileRef = 788BDFA5680B421BB3858A86 /* KWVerifying.h */; settings = {}; };
+		6E6FAF8CBEA5448584CE5370 /* KWMock.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F8C12B5C11A47AFB10DFB70 /* KWMock.h */; settings = {}; };
+		6F965CF4F528416F992B0B32 /* KWMock.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C44666614D4105ADE47CBB /* KWMock.m */; settings = {}; };
+		71D8437BAA664789A2744603 /* KWBeZeroMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = DF4541390C8C4CDDA86F2086 /* KWBeZeroMatcher.m */; settings = {}; };
+		74DA03AC1EFE49A0BFD007F5 /* NSProxy+KiwiVerifierAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE6DC462E674555B03B1E3A /* NSProxy+KiwiVerifierAdditions.m */; settings = {}; };
+		756869108F194A07A87AB8F4 /* KWConformToProtocolMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B1E5E6A08AA461FB76660A4 /* KWConformToProtocolMatcher.h */; settings = {}; };
+		7A0D847480A149E78CB1D81D /* KWBeforeEachNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 485361C1399B43BD87A6E1EE /* KWBeforeEachNode.h */; settings = {}; };
+		7C1A0AC5F2D641A5AE007C67 /* KWValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D585B62C349421AB810C49C /* KWValue.m */; settings = {}; };
+		7DD9F1B679C846E4B375E010 /* KWChangeMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB1EC596E3B48ED9E19FB39 /* KWChangeMatcher.m */; settings = {}; };
+		7E5A4CA3E7ED41558064724E /* KWBeSubclassOfClassMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 458F9272AE8A4B3B90101041 /* KWBeSubclassOfClassMatcher.m */; settings = {}; };
+		7E974C1C0F584A6FA4D1CEBA /* KWHaveMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 43E1659782864B99BBC66F61 /* KWHaveMatcher.h */; settings = {}; };
+		7F3BBE5E2EA1442AB7CDBAA9 /* KWAsyncVerifier.m in Sources */ = {isa = PBXBuildFile; fileRef = A31908D7269C4EDF9ED2AA8B /* KWAsyncVerifier.m */; settings = {}; };
+		8037012A920E452D8E9F7149 /* KWBeTrueMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C4A22A6135F420C847FAF3C /* KWBeTrueMatcher.h */; settings = {}; };
+		8044A3C207AC4D2BBDB1A84D /* NSInvocation+KiwiAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BE0049275B74C0B9ABA30F3 /* NSInvocation+KiwiAdditions.h */; settings = {}; };
+		8207C6006B9C47698682B713 /* KWBeIdenticalToMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C8CD170400C42118573F67C /* KWBeIdenticalToMatcher.h */; settings = {}; };
+		8217F86DC74C4C3FA7F4CB51 /* KWMessagePattern.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FF1D4162CEE4AACB376A19E /* KWMessagePattern.m */; settings = {}; };
+		82239972B2324B9DAFFA0883 /* KWMatchVerifier.h in Headers */ = {isa = PBXBuildFile; fileRef = F98DEC1DA9084201B827422B /* KWMatchVerifier.h */; settings = {}; };
+		84B60F064E764A4EB5A787B8 /* KWExampleSuite.m in Sources */ = {isa = PBXBuildFile; fileRef = 69009AA669874443B604C644 /* KWExampleSuite.m */; settings = {}; };
+		84CB359D30664EBFA548F6A1 /* KWStringContainsMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 3286A09F12AD423F98C91867 /* KWStringContainsMatcher.h */; settings = {}; };
+		84E8E1EB957E48AA901EAAB1 /* KWBeWithinMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = E3B3A234F67E4FBBB92E945C /* KWBeWithinMatcher.h */; settings = {}; };
+		8588E29889FF4134AF8B7525 /* KWContainStringMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D83D173DB64B5F98FE5AE0 /* KWContainStringMatcher.m */; settings = {}; };
+		85ADBE7458CD409CB51C3F7F /* NSValue+KiwiAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A9DF112FDA14926AABFD5C9 /* NSValue+KiwiAdditions.h */; settings = {}; };
+		8722294EBB044EA1BAF13F99 /* KWRaiseMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = F19CC0ADAA064CFABCFB0953 /* KWRaiseMatcher.h */; settings = {}; };
+		8796403BADEF469E9FDEE052 /* KWPendingNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7DEB5466F1485C9F979F07 /* KWPendingNode.m */; settings = {}; };
+		8B86DC1979484A64995A0878 /* KWMessageTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D67DD9BD334811B84BDCBB /* KWMessageTracker.m */; settings = {}; };
+		8BE190C55B5441BDA2ADF1E5 /* KWRaiseMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E769C8AC6E4B47887D68B7 /* KWRaiseMatcher.m */; settings = {}; };
+		8DD06571E6D3420AA54FBFCC /* KWInequalityMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = C948B708DE7A470C95DE9329 /* KWInequalityMatcher.m */; settings = {}; };
+		8E6606528D544AEDBC965F33 /* KWExampleGroupBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 008BE56939704EBF83C95D35 /* KWExampleGroupBuilder.m */; settings = {}; };
+		8EC593D684714A899BA79B09 /* KWReceiveMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E787A3836142B8B21FC67E /* KWReceiveMatcher.m */; settings = {}; };
+		8FEA948F74404ECD92A585E8 /* KWContextNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFB9D94CB2745C896BA85F1 /* KWContextNode.m */; settings = {}; };
+		928514CB38934E72A371681E /* NSInvocation+OCMAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = E04344FFBB564849ABE5711E /* NSInvocation+OCMAdditions.m */; settings = {}; };
+		92EAFE3AE3B34CDAB4B24E31 /* NSObject+REObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = B48331D851B4462EB9142E0C /* NSObject+REObserver.h */; settings = {}; };
+		93DD62D499004138AD4B0485 /* KWRespondToSelectorMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EEF9C63F47849FBAEC7B0FB /* KWRespondToSelectorMatcher.m */; settings = {}; };
+		95BFFF39914D4358B3F62855 /* NSProxy+KiwiVerifierAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 41B3115C28C04FA58B16C13C /* NSProxy+KiwiVerifierAdditions.h */; settings = {}; };
+		95E8B36106E3451EBCED93E5 /* KWRegisterMatchersNode.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7DA96676CC4C25BE352A76 /* KWRegisterMatchersNode.m */; settings = {}; };
+		966AE64F214042FEAD1F26B6 /* KWItNode.h in Headers */ = {isa = PBXBuildFile; fileRef = C435C0407A0B4C169392433B /* KWItNode.h */; settings = {}; };
+		9732FBA844DF408C99525A3A /* KWMessagePattern.h in Headers */ = {isa = PBXBuildFile; fileRef = B84195270BF8416A938C1571 /* KWMessagePattern.h */; settings = {}; };
+		98415F8F5AAE4E52A69B7158 /* KWExampleNode.h in Headers */ = {isa = PBXBuildFile; fileRef = EAC05AA4EAB047F4AEB58E7F /* KWExampleNode.h */; settings = {}; };
+		9A45C34BF00C4BA09D9A8038 /* KWGenericMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E21D90DC7C14A77BD5D3E04 /* KWGenericMatcher.h */; settings = {}; };
+		9BAEFD5EC7084FC4B9F47D7C /* KWTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = E7FF16C6C308430699FFFCAB /* KWTestCase.h */; settings = {}; };
+		9C8A0971B63D455285159E53 /* KWBeIdenticalToMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 453F76AE30564FCEB0C3EA3C /* KWBeIdenticalToMatcher.m */; settings = {}; };
+		9CA6AB185605433FBC01A3A2 /* KWRegularExpressionPatternMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA89103D077478AA7AF75DA /* KWRegularExpressionPatternMatcher.m */; settings = {}; };
+		9E2AB8141C904BD6974125EE /* KWUserDefinedMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = A089C1D6E97643ED8048FB0C /* KWUserDefinedMatcher.m */; settings = {}; };
+		9EC329AF92A94838BAA1B97C /* KWRespondToSelectorMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = F2BC264197FD49EBBB85FD7E /* KWRespondToSelectorMatcher.h */; settings = {}; };
+		9F5B8A6D865E4F80979DDEAB /* KWRegularExpressionPatternMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E3BCFE2E10948458ECD6DF0 /* KWRegularExpressionPatternMatcher.h */; settings = {}; };
+		9F6C71C3C39C4CF69231AFED /* KWDeviceInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D384F7A33FC4E4FA825046C /* KWDeviceInfo.h */; settings = {}; };
+		A1CBAE9CDFFB4CD490D0FED3 /* NSObject+KiwiSpyAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DD883BBE7E6A4189BCF228E5 /* NSObject+KiwiSpyAdditions.m */; settings = {}; };
+		A228A24F32D94DF6B4AE7E46 /* KWBeSubclassOfClassMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BBE7E2CBE9C4101874689E4 /* KWBeSubclassOfClassMatcher.h */; settings = {}; };
+		A9766F56800344179C7E139A /* KWFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 537DE4E20C4C4DAB87EB61F6 /* KWFormatter.h */; settings = {}; };
+		A99453567DC743CEA59CB573 /* KWItNode.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C98EB17D5B430DA9F0AF16 /* KWItNode.m */; settings = {}; };
+		AD5CE0CA74A5489CBCCAEF97 /* KWFailure.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A38D045B525421DAD0C7E78 /* KWFailure.m */; settings = {}; };
+		AF450EBDF0254F0A9783E1C5 /* Pods-ArticleReaderTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE57457E7874CD0A2045477 /* Pods-ArticleReaderTests-dummy.m */; settings = {}; };
+		B169C9D53CBB48169175393E /* REKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 375295A2831D40C3A833A4C3 /* REKit.h */; settings = {}; };
+		B4799F2CD5E34E9C8D21FE1A /* KWStringPrefixMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 01792069606143D19FD2203F /* KWStringPrefixMatcher.h */; settings = {}; };
+		B55CC98CBCD64F5B865A4835 /* KWMatcherFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6F3F3AC65469FB914BC3F /* KWMatcherFactory.m */; settings = {}; };
+		B6661AB3CF1740A2ACE0FDD9 /* KWChangeMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DFACF86F90D4ECD829727C3 /* KWChangeMatcher.h */; settings = {}; };
+		B6BBD51F52DC4E20BB588B50 /* KWBeMemberOfClassMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 89631F58716D4C49B7F98232 /* KWBeMemberOfClassMatcher.h */; settings = {}; };
+		B7F912B7E3BC4F9BB515BAC6 /* KWReporting.h in Headers */ = {isa = PBXBuildFile; fileRef = 66396E3DA1CD4F17B00AB558 /* KWReporting.h */; settings = {}; };
+		BC284344EBB640B3AC6738E2 /* REUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = E2297348E40E4F2CBDC9F836 /* REUtil.m */; settings = {}; };
+		BCDD2AC309EA4272B8D623BD /* KWObjCUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 6015956D0EBE4737841616C9 /* KWObjCUtilities.m */; settings = {}; };
+		BEA4BFA86C2D4030B28F580F /* KWTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B23B8209404B118F13EF59 /* KWTestCase.m */; settings = {}; };
+		BFBE59A599EC418A947CE883 /* KWNull.h in Headers */ = {isa = PBXBuildFile; fileRef = A8DA9612D31A49DFBBF7F641 /* KWNull.h */; settings = {}; };
+		BFBF9F37DB7049DE81BF4A44 /* KWCaptureSpy.h in Headers */ = {isa = PBXBuildFile; fileRef = 525301E0E41544BB92D69BE7 /* KWCaptureSpy.h */; settings = {}; };
+		BFD80852D98B4914B4437943 /* NSObject+REResponder.h in Headers */ = {isa = PBXBuildFile; fileRef = E19E8DC3688F4DABB3D2F917 /* NSObject+REResponder.h */; settings = {}; };
+		C09132BF74E64374A24CF162 /* KWGenericMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = FF6D4644D5F846DE8FCCCB65 /* KWGenericMatcher.m */; settings = {}; };
+		C09CA1B0F4FD40429844242B /* KWDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EA918CCA66B426D83C502EF /* KWDeviceInfo.m */; settings = {}; };
+		C523832EC12745E3BF7B3606 /* KWAfterEachNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4002F08D4945C4916CD412 /* KWAfterEachNode.m */; settings = {}; };
+		C5ED012E64FE4253AB0ED0C9 /* NSInvocation+OCMAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5480272B5F004E17B6F47911 /* NSInvocation+OCMAdditions.h */; settings = {}; };
+		C7325D23926A4F31A2B7BDA4 /* KWSymbolicator.h in Headers */ = {isa = PBXBuildFile; fileRef = 320009DB987A4C43861F00A9 /* KWSymbolicator.h */; settings = {}; };
+		CAFAF082C1054C72B26D9286 /* KWMatchers.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C4FA30F74EF41309C6B709F /* KWMatchers.h */; settings = {}; };
+		CB11C4AF48AA4877AAC00577 /* KWInvocationCapturer.h in Headers */ = {isa = PBXBuildFile; fileRef = BA6A06C72AF64AAABEE387DE /* KWInvocationCapturer.h */; settings = {}; };
+		CC1FFFA7ED524233AAC57B08 /* KWAny.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B300FFC6391436AA8EA9AD3 /* KWAny.m */; settings = {}; };
+		CC2CAD5DC6AF49ECA7231608 /* KWFutureObject.h in Headers */ = {isa = PBXBuildFile; fileRef = DA9D3F13005D49CCA319F786 /* KWFutureObject.h */; settings = {}; };
+		CDBFA05E8CCF4A14BFCBFAA0 /* KWContainMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 10144F0F8E0043B395DAC39B /* KWContainMatcher.h */; settings = {}; };
+		CE8C3BE9860540F5BFA0E62F /* KWBeEmptyMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8162FD69DD4D2BB603C754 /* KWBeEmptyMatcher.m */; settings = {}; };
+		D151FAC100EB49CFB7681E9E /* KWHaveMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = D805F8D4192A49B38DEFCDD8 /* KWHaveMatcher.m */; settings = {}; };
+		D4DCC3908CB74F17AFC9F06A /* KWBeWithinMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C5136A670CF4E52A28E8D09 /* KWBeWithinMatcher.m */; settings = {}; };
+		D7341E9BF01D4B06A3FBA47A /* KWExampleGroupDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D94FC33F06A475B8730DCFF /* KWExampleGroupDelegate.h */; settings = {}; };
+		D74E47148DFA4C9B97336BE7 /* KWInvocationCapturer.m in Sources */ = {isa = PBXBuildFile; fileRef = 558E5C624C684C70B17F8A7E /* KWInvocationCapturer.m */; settings = {}; };
+		DC01442F186245F381BFA045 /* KWWorkarounds.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D344A0BE3F4A96B09FB3C7 /* KWWorkarounds.h */; settings = {}; };
+		DF72CDCAED774F48A56F9767 /* KWProbePoller.h in Headers */ = {isa = PBXBuildFile; fileRef = CE8C88A1B62E474A951521B2 /* KWProbePoller.h */; settings = {}; };
+		DFD22F23DE8248BFA6537DF8 /* KWGenericMatchingAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = E733550000564102BF6A37E2 /* KWGenericMatchingAdditions.h */; settings = {}; };
+		E1B6BCD62E814528B1F5D8B5 /* KWProbe.h in Headers */ = {isa = PBXBuildFile; fileRef = CBF572AF2F2E42CAB153C1AB /* KWProbe.h */; settings = {}; };
+		E30310C0A97343FCBEB78217 /* KWIntercept.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AC04BCC75CD4F1EB9C744A9 /* KWIntercept.h */; settings = {}; };
+		E3CA605BEDA8469492344EB7 /* NSObject+KiwiVerifierAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = B1ADBFF2D42446E8AA55FDE4 /* NSObject+KiwiVerifierAdditions.h */; settings = {}; };
+		E44E4AD93A4347259E3D392D /* KWStringPrefixMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DF75102D35243019EFD3C2A /* KWStringPrefixMatcher.m */; settings = {}; };
+		E4DA3C3270F543BCBA2ACB29 /* KWFutureObject.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E0F0AFAF684C5C9D6A4954 /* KWFutureObject.m */; settings = {}; };
+		E56B1DB3B7674547B596FD07 /* KWBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = F908AFAB92434712857D10BF /* KWBlock.h */; settings = {}; };
+		E5AB9504A7FA4294BF1B7FBB /* KWBeBetweenMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = D8C71D5BDAD74D419E88E59E /* KWBeBetweenMatcher.m */; settings = {}; };
+		E6D2D9C1939B47108A375797 /* KWUserDefinedMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = C88F60E883304DD5AD26E44A /* KWUserDefinedMatcher.h */; settings = {}; };
+		E9024D1F68AE428480234364 /* KWBlockRaiseMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D27CD9685D401DA20EFC0F /* KWBlockRaiseMatcher.m */; settings = {}; };
+		ED8FBAD07E574353B962D9DB /* KWPendingNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 49C94B37CD9440C5A8BD95A9 /* KWPendingNode.h */; settings = {}; };
+		EDAC20DDF3EE47448C876668 /* KWBeZeroMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = A2EF5E249E044FA49167889F /* KWBeZeroMatcher.h */; settings = {}; };
+		EDCA6325065F4979A3F48710 /* KWConformToProtocolMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = D2AEFA3CB7134640A67CFD0C /* KWConformToProtocolMatcher.m */; settings = {}; };
+		EEA04B52163049E0AA753AA8 /* SenTestSuite+KiwiAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D14A08FF948649269E048F26 /* SenTestSuite+KiwiAdditions.h */; settings = {}; };
+		EF3B1C1681B844D9BB5DFD9B /* KWBeEmptyMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = AFEB6BDD08A3491E8C8E2321 /* KWBeEmptyMatcher.h */; settings = {}; };
+		EFCBE228F28948BFA0CF7ABA /* KWCaptureSpy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7083FEFA764729A5C55884 /* KWCaptureSpy.m */; settings = {}; };
+		F0F71E8EADC74497BFBA837F /* KWGenericMatchEvaluator.h in Headers */ = {isa = PBXBuildFile; fileRef = 94EFEACD6F894E55AA0FE9B3 /* KWGenericMatchEvaluator.h */; settings = {}; };
+		F30D4BC6143D4F79A7F6F0A2 /* KWMessageSpying.h in Headers */ = {isa = PBXBuildFile; fileRef = A18A7D4792EE4E0399A4202D /* KWMessageSpying.h */; settings = {}; };
+		F41E4B15C70B49AEB1C13B66 /* KWStub.h in Headers */ = {isa = PBXBuildFile; fileRef = 572D71C217784D4D994AADBD /* KWStub.h */; settings = {}; };
+		F42008C37E15498FBA0B2CDF /* KWMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A44CA6B6526436EB6DEE2D5 /* KWMatcher.m */; settings = {}; };
+		F548712662F34F158EFA3EFD /* NSObject+REResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1419F55E30B048068EE55AC5 /* NSObject+REResponder.m */; settings = {}; };
+		F595BC70993C4C32A6B3C8A3 /* KiwiConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 460D5CE329C249198BEE3062 /* KiwiConfiguration.h */; settings = {}; };
+		F7675C2119E74A0482C7D413 /* KWHaveValueMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 43B8B42833384876B06687D1 /* KWHaveValueMatcher.h */; settings = {}; };
+		F78A8BFB544648AC8B0DDCEF /* KWAsyncVerifier.h in Headers */ = {isa = PBXBuildFile; fileRef = DE278805050249CBB1AA9837 /* KWAsyncVerifier.h */; settings = {}; };
+		F8F275EA917A45CB995E4883 /* NSObject+KiwiMockAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = CAAE1C0352E646A8994AE509 /* NSObject+KiwiMockAdditions.h */; settings = {}; };
+		FA6E23D4F3274407992148F5 /* NSMethodSignature+KiwiAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 20AD2582B44F4A3D8C80B078 /* NSMethodSignature+KiwiAdditions.h */; settings = {}; };
+		FA6F655E39D947988B587D4C /* SenTestSuite+KiwiAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AC9FEFB6D314FD8B1782159 /* SenTestSuite+KiwiAdditions.m */; settings = {}; };
+		FB321F9837654D4D95CC222F /* KWSymbolicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 7354A4D5CBA142B2A8825ECF /* KWSymbolicator.m */; settings = {}; };
+		FB357E7F0A7D4B069A3E466F /* KWExistVerifier.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D4CC5E25A9B496C87BBA47E /* KWExistVerifier.h */; settings = {}; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		008BE56939704EBF83C95D35 /* KWExampleGroupBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWExampleGroupBuilder.m; path = Kiwi/Classes/KWExampleGroupBuilder.m; sourceTree = SOURCE_ROOT; };
+		01792069606143D19FD2203F /* KWStringPrefixMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWStringPrefixMatcher.h; path = Kiwi/Classes/KWStringPrefixMatcher.h; sourceTree = SOURCE_ROOT; };
+		02E1EB880B9B4BCF98BA7CC1 /* NSObject+KiwiStubAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+KiwiStubAdditions.h"; path = "Kiwi/Classes/NSObject+KiwiStubAdditions.h"; sourceTree = SOURCE_ROOT; };
+		03056556AE3546C8B600F184 /* KWAny.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWAny.h; path = Kiwi/Classes/KWAny.h; sourceTree = SOURCE_ROOT; };
+		06595801304C4DE5827693EE /* NSValue+KiwiAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSValue+KiwiAdditions.m"; path = "Kiwi/Classes/NSValue+KiwiAdditions.m"; sourceTree = SOURCE_ROOT; };
+		07B653EBBC534927BB0DFFAA /* KWStringContainsMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWStringContainsMatcher.m; path = Kiwi/Classes/KWStringContainsMatcher.m; sourceTree = SOURCE_ROOT; };
+		08D83D173DB64B5F98FE5AE0 /* KWContainStringMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWContainStringMatcher.m; path = Kiwi/Classes/KWContainStringMatcher.m; sourceTree = SOURCE_ROOT; };
+		0C4FA30F74EF41309C6B709F /* KWMatchers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWMatchers.h; path = Kiwi/Classes/KWMatchers.h; sourceTree = SOURCE_ROOT; };
+		0C5136A670CF4E52A28E8D09 /* KWBeWithinMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWBeWithinMatcher.m; path = Kiwi/Classes/KWBeWithinMatcher.m; sourceTree = SOURCE_ROOT; };
+		0C86E8334F0249BE9E732E92 /* NSNumber+KiwiAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNumber+KiwiAdditions.h"; path = "Kiwi/Classes/NSNumber+KiwiAdditions.h"; sourceTree = SOURCE_ROOT; };
+		0C8CD170400C42118573F67C /* KWBeIdenticalToMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWBeIdenticalToMatcher.h; path = Kiwi/Classes/KWBeIdenticalToMatcher.h; sourceTree = SOURCE_ROOT; };
+		0D4CC5E25A9B496C87BBA47E /* KWExistVerifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWExistVerifier.h; path = Kiwi/Classes/KWExistVerifier.h; sourceTree = SOURCE_ROOT; };
+		0DFACF86F90D4ECD829727C3 /* KWChangeMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWChangeMatcher.h; path = Kiwi/Classes/KWChangeMatcher.h; sourceTree = SOURCE_ROOT; };
+		0EA918CCA66B426D83C502EF /* KWDeviceInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWDeviceInfo.m; path = Kiwi/Classes/KWDeviceInfo.m; sourceTree = SOURCE_ROOT; };
+		0FA6F3F3AC65469FB914BC3F /* KWMatcherFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWMatcherFactory.m; path = Kiwi/Classes/KWMatcherFactory.m; sourceTree = SOURCE_ROOT; };
+		10144F0F8E0043B395DAC39B /* KWContainMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWContainMatcher.h; path = Kiwi/Classes/KWContainMatcher.h; sourceTree = SOURCE_ROOT; };
+		12E3BCFC38B9409F95105694 /* KWBeTrueMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWBeTrueMatcher.m; path = Kiwi/Classes/KWBeTrueMatcher.m; sourceTree = SOURCE_ROOT; };
+		1419F55E30B048068EE55AC5 /* NSObject+REResponder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+REResponder.m"; path = "REKit/REKit/NSObject+REResponder.m"; sourceTree = SOURCE_ROOT; };
+		14BEFE15F83441CBA9390528 /* KWHaveValueMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWHaveValueMatcher.m; path = Kiwi/Classes/KWHaveValueMatcher.m; sourceTree = SOURCE_ROOT; };
+		14E769C8AC6E4B47887D68B7 /* KWRaiseMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWRaiseMatcher.m; path = Kiwi/Classes/KWRaiseMatcher.m; sourceTree = SOURCE_ROOT; };
+		1A8C226797C144B9AB0AC859 /* Pods-ArticleReaderTests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-ArticleReaderTests-environment.h"; path = "Pods-ArticleReaderTests-environment.h"; sourceTree = SOURCE_ROOT; };
+		1AFCC67B9E344743A162DA0F /* KWMatcherFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWMatcherFactory.h; path = Kiwi/Classes/KWMatcherFactory.h; sourceTree = SOURCE_ROOT; };
+		1BA2761F55D3479C92474485 /* KWBeKindOfClassMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWBeKindOfClassMatcher.m; path = Kiwi/Classes/KWBeKindOfClassMatcher.m; sourceTree = SOURCE_ROOT; };
+		1C4A22A6135F420C847FAF3C /* KWBeTrueMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWBeTrueMatcher.h; path = Kiwi/Classes/KWBeTrueMatcher.h; sourceTree = SOURCE_ROOT; };
+		1CB05A44BA06444195F24259 /* KWBeforeEachNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWBeforeEachNode.m; path = Kiwi/Classes/KWBeforeEachNode.m; sourceTree = SOURCE_ROOT; };
+		1D585B62C349421AB810C49C /* KWValue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWValue.m; path = Kiwi/Classes/KWValue.m; sourceTree = SOURCE_ROOT; };
+		1E5321A76D64418CBE6B9BE1 /* KWBeKindOfClassMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWBeKindOfClassMatcher.h; path = Kiwi/Classes/KWBeKindOfClassMatcher.h; sourceTree = SOURCE_ROOT; };
+		2026A9D94C4F454FB2D308A5 /* NSInvocation+KiwiAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSInvocation+KiwiAdditions.m"; path = "Kiwi/Classes/NSInvocation+KiwiAdditions.m"; sourceTree = SOURCE_ROOT; };
+		20AD2582B44F4A3D8C80B078 /* NSMethodSignature+KiwiAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMethodSignature+KiwiAdditions.h"; path = "Kiwi/Classes/NSMethodSignature+KiwiAdditions.h"; sourceTree = SOURCE_ROOT; };
+		224C52DEC4C54F1CB5C3BEE9 /* KWExampleNodeVisitor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWExampleNodeVisitor.h; path = Kiwi/Classes/KWExampleNodeVisitor.h; sourceTree = SOURCE_ROOT; };
+		26A617AE66E54701B6D75703 /* KiwiBlockMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KiwiBlockMacros.h; path = Kiwi/Classes/KiwiBlockMacros.h; sourceTree = SOURCE_ROOT; };
+		2BE0049275B74C0B9ABA30F3 /* NSInvocation+KiwiAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSInvocation+KiwiAdditions.h"; path = "Kiwi/Classes/NSInvocation+KiwiAdditions.h"; sourceTree = SOURCE_ROOT; };
+		2CE118E244B642B4A1112917 /* NSObject+KiwiMockAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+KiwiMockAdditions.m"; path = "Kiwi/Classes/NSObject+KiwiMockAdditions.m"; sourceTree = SOURCE_ROOT; };
+		2E14EB71A2274DC1AE6128B1 /* SenTestingKit.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		2E3BCFE2E10948458ECD6DF0 /* KWRegularExpressionPatternMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWRegularExpressionPatternMatcher.h; path = Kiwi/Classes/KWRegularExpressionPatternMatcher.h; sourceTree = SOURCE_ROOT; };
+		2EB1EC596E3B48ED9E19FB39 /* KWChangeMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWChangeMatcher.m; path = Kiwi/Classes/KWChangeMatcher.m; sourceTree = SOURCE_ROOT; };
+		3163CC3DD588462BA7B9097C /* KWBlock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWBlock.m; path = Kiwi/Classes/KWBlock.m; sourceTree = SOURCE_ROOT; };
+		320009DB987A4C43861F00A9 /* KWSymbolicator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWSymbolicator.h; path = Kiwi/Classes/KWSymbolicator.h; sourceTree = SOURCE_ROOT; };
+		3286A09F12AD423F98C91867 /* KWStringContainsMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWStringContainsMatcher.h; path = Kiwi/Classes/KWStringContainsMatcher.h; sourceTree = SOURCE_ROOT; };
+		34B599C043A6410E9442C2C8 /* KWAfterAllNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWAfterAllNode.h; path = Kiwi/Classes/KWAfterAllNode.h; sourceTree = SOURCE_ROOT; };
+		375295A2831D40C3A833A4C3 /* REKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = REKit.h; path = REKit/REKit/REKit.h; sourceTree = SOURCE_ROOT; };
+		38D67DD9BD334811B84BDCBB /* KWMessageTracker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWMessageTracker.m; path = Kiwi/Classes/KWMessageTracker.m; sourceTree = SOURCE_ROOT; };
+		3911D75B15264FB09D2BFA1E /* KWAfterAllNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWAfterAllNode.m; path = Kiwi/Classes/KWAfterAllNode.m; sourceTree = SOURCE_ROOT; };
+		3A9DF112FDA14926AABFD5C9 /* NSValue+KiwiAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSValue+KiwiAdditions.h"; path = "Kiwi/Classes/NSValue+KiwiAdditions.h"; sourceTree = SOURCE_ROOT; };
+		3AC04BCC75CD4F1EB9C744A9 /* KWIntercept.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWIntercept.h; path = Kiwi/Classes/KWIntercept.h; sourceTree = SOURCE_ROOT; };
+		3B9625F235694AAEBF8931EF /* KWExpectationType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWExpectationType.h; path = Kiwi/Classes/KWExpectationType.h; sourceTree = SOURCE_ROOT; };
+		3C9E4514CDAB49DF8487902E /* KWGenericMatchEvaluator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWGenericMatchEvaluator.m; path = Kiwi/Classes/KWGenericMatchEvaluator.m; sourceTree = SOURCE_ROOT; };
+		3DAA71DD22A0408EBD3FA0E3 /* KWSpec.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWSpec.m; path = Kiwi/Classes/KWSpec.m; sourceTree = SOURCE_ROOT; };
+		3E4002F08D4945C4916CD412 /* KWAfterEachNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWAfterEachNode.m; path = Kiwi/Classes/KWAfterEachNode.m; sourceTree = SOURCE_ROOT; };
+		41B3115C28C04FA58B16C13C /* NSProxy+KiwiVerifierAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSProxy+KiwiVerifierAdditions.h"; path = "Kiwi/Classes/NSProxy+KiwiVerifierAdditions.h"; sourceTree = SOURCE_ROOT; };
+		43B8B42833384876B06687D1 /* KWHaveValueMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWHaveValueMatcher.h; path = Kiwi/Classes/KWHaveValueMatcher.h; sourceTree = SOURCE_ROOT; };
+		43E1659782864B99BBC66F61 /* KWHaveMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWHaveMatcher.h; path = Kiwi/Classes/KWHaveMatcher.h; sourceTree = SOURCE_ROOT; };
+		453F76AE30564FCEB0C3EA3C /* KWBeIdenticalToMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWBeIdenticalToMatcher.m; path = Kiwi/Classes/KWBeIdenticalToMatcher.m; sourceTree = SOURCE_ROOT; };
+		458F9272AE8A4B3B90101041 /* KWBeSubclassOfClassMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWBeSubclassOfClassMatcher.m; path = Kiwi/Classes/KWBeSubclassOfClassMatcher.m; sourceTree = SOURCE_ROOT; };
+		460D5CE329C249198BEE3062 /* KiwiConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KiwiConfiguration.h; path = Kiwi/Classes/KiwiConfiguration.h; sourceTree = SOURCE_ROOT; };
+		485361C1399B43BD87A6E1EE /* KWBeforeEachNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWBeforeEachNode.h; path = Kiwi/Classes/KWBeforeEachNode.h; sourceTree = SOURCE_ROOT; };
+		4979F6018C3E417D9753E813 /* KWContainMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWContainMatcher.m; path = Kiwi/Classes/KWContainMatcher.m; sourceTree = SOURCE_ROOT; };
+		49C24F773D644F59A372C26C /* KWInequalityMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWInequalityMatcher.h; path = Kiwi/Classes/KWInequalityMatcher.h; sourceTree = SOURCE_ROOT; };
+		49C94B37CD9440C5A8BD95A9 /* KWPendingNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWPendingNode.h; path = Kiwi/Classes/KWPendingNode.h; sourceTree = SOURCE_ROOT; };
+		4B1E5E6A08AA461FB76660A4 /* KWConformToProtocolMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWConformToProtocolMatcher.h; path = Kiwi/Classes/KWConformToProtocolMatcher.h; sourceTree = SOURCE_ROOT; };
+		4B81027A39B24175ABA4AEFE /* KWRegisterMatchersNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWRegisterMatchersNode.h; path = Kiwi/Classes/KWRegisterMatchersNode.h; sourceTree = SOURCE_ROOT; };
+		4BD466FA49CC4D6D892A117F /* KWContextNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWContextNode.h; path = Kiwi/Classes/KWContextNode.h; sourceTree = SOURCE_ROOT; };
+		4BFB993E4FA3419295973473 /* NSObject+KiwiSpyAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+KiwiSpyAdditions.h"; path = "Kiwi/Classes/NSObject+KiwiSpyAdditions.h"; sourceTree = SOURCE_ROOT; };
+		4BFD07B82F114D21B61037A2 /* KWBeforeAllNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWBeforeAllNode.m; path = Kiwi/Classes/KWBeforeAllNode.m; sourceTree = SOURCE_ROOT; };
+		4D94FC33F06A475B8730DCFF /* KWExampleGroupDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWExampleGroupDelegate.h; path = Kiwi/Classes/KWExampleGroupDelegate.h; sourceTree = SOURCE_ROOT; };
+		4E11899E30C54F2F9F249CAD /* KWObjCUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWObjCUtilities.h; path = Kiwi/Classes/KWObjCUtilities.h; sourceTree = SOURCE_ROOT; };
+		4EEF9C63F47849FBAEC7B0FB /* KWRespondToSelectorMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWRespondToSelectorMatcher.m; path = Kiwi/Classes/KWRespondToSelectorMatcher.m; sourceTree = SOURCE_ROOT; };
+		520A3FB996F94C9486BD6D6B /* KWProbePoller.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWProbePoller.m; path = Kiwi/Classes/KWProbePoller.m; sourceTree = SOURCE_ROOT; };
+		525301E0E41544BB92D69BE7 /* KWCaptureSpy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWCaptureSpy.h; path = Kiwi/Classes/KWCaptureSpy.h; sourceTree = SOURCE_ROOT; };
+		52866CE6A873424698186878 /* KWExample.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWExample.h; path = Kiwi/Classes/KWExample.h; sourceTree = SOURCE_ROOT; };
+		537DE4E20C4C4DAB87EB61F6 /* KWFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWFormatter.h; path = Kiwi/Classes/KWFormatter.h; sourceTree = SOURCE_ROOT; };
+		5383E219FFA44FDE8AEA93C3 /* KWMatchVerifier.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWMatchVerifier.m; path = Kiwi/Classes/KWMatchVerifier.m; sourceTree = SOURCE_ROOT; };
+		5480272B5F004E17B6F47911 /* NSInvocation+OCMAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSInvocation+OCMAdditions.h"; path = "Kiwi/Classes/NSInvocation+OCMAdditions.h"; sourceTree = SOURCE_ROOT; };
+		5534AD6101BD40C4AB2420A5 /* Pods-ArticleReaderTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; name = "Pods-ArticleReaderTests-acknowledgements.markdown"; path = "Pods-ArticleReaderTests-acknowledgements.markdown"; sourceTree = SOURCE_ROOT; };
+		558E5C624C684C70B17F8A7E /* KWInvocationCapturer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWInvocationCapturer.m; path = Kiwi/Classes/KWInvocationCapturer.m; sourceTree = SOURCE_ROOT; };
+		5682E07089764958A117755E /* KWMatching.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWMatching.h; path = Kiwi/Classes/KWMatching.h; sourceTree = SOURCE_ROOT; };
+		572D71C217784D4D994AADBD /* KWStub.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWStub.h; path = Kiwi/Classes/KWStub.h; sourceTree = SOURCE_ROOT; };
+		5819110F5D474E16945B045D /* Kiwi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Kiwi.h; path = Kiwi/Classes/Kiwi.h; sourceTree = SOURCE_ROOT; };
+		59A98D693ACB4356A4B84022 /* KWCallSite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWCallSite.h; path = Kiwi/Classes/KWCallSite.h; sourceTree = SOURCE_ROOT; };
+		5A38D045B525421DAD0C7E78 /* KWFailure.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWFailure.m; path = Kiwi/Classes/KWFailure.m; sourceTree = SOURCE_ROOT; };
+		5B300FFC6391436AA8EA9AD3 /* KWAny.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWAny.m; path = Kiwi/Classes/KWAny.m; sourceTree = SOURCE_ROOT; };
+		5D439D400D654116A03BBE41 /* KWExistVerifier.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWExistVerifier.m; path = Kiwi/Classes/KWExistVerifier.m; sourceTree = SOURCE_ROOT; };
+		5DF75102D35243019EFD3C2A /* KWStringPrefixMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWStringPrefixMatcher.m; path = Kiwi/Classes/KWStringPrefixMatcher.m; sourceTree = SOURCE_ROOT; };
+		6015956D0EBE4737841616C9 /* KWObjCUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWObjCUtilities.m; path = Kiwi/Classes/KWObjCUtilities.m; sourceTree = SOURCE_ROOT; };
+		66249300FEE34BB6A6A5F52E /* KWExampleGroupBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWExampleGroupBuilder.h; path = Kiwi/Classes/KWExampleGroupBuilder.h; sourceTree = SOURCE_ROOT; };
+		66396E3DA1CD4F17B00AB558 /* KWReporting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWReporting.h; path = Kiwi/Classes/KWReporting.h; sourceTree = SOURCE_ROOT; };
+		69009AA669874443B604C644 /* KWExampleSuite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWExampleSuite.m; path = Kiwi/Classes/KWExampleSuite.m; sourceTree = SOURCE_ROOT; };
+		6A7083FEFA764729A5C55884 /* KWCaptureSpy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWCaptureSpy.m; path = Kiwi/Classes/KWCaptureSpy.m; sourceTree = SOURCE_ROOT; };
+		6AC9FEFB6D314FD8B1782159 /* SenTestSuite+KiwiAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SenTestSuite+KiwiAdditions.m"; path = "Kiwi/Classes/SenTestSuite+KiwiAdditions.m"; sourceTree = SOURCE_ROOT; };
+		6CC5AC51999F4CF0B4FED46F /* KWStringUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWStringUtilities.m; path = Kiwi/Classes/KWStringUtilities.m; sourceTree = SOURCE_ROOT; };
+		6E332105E1DD46B285C3D8CF /* KWExampleSuite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWExampleSuite.h; path = Kiwi/Classes/KWExampleSuite.h; sourceTree = SOURCE_ROOT; };
+		6E7DEB5466F1485C9F979F07 /* KWPendingNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWPendingNode.m; path = Kiwi/Classes/KWPendingNode.m; sourceTree = SOURCE_ROOT; };
+		6F095863C88C4F43A43B77B1 /* KWEqualMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWEqualMatcher.m; path = Kiwi/Classes/KWEqualMatcher.m; sourceTree = SOURCE_ROOT; };
+		6F70A6C2844D4853ABE8637C /* KWBeforeAllNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWBeforeAllNode.h; path = Kiwi/Classes/KWBeforeAllNode.h; sourceTree = SOURCE_ROOT; };
+		6FE57457E7874CD0A2045477 /* Pods-ArticleReaderTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-ArticleReaderTests-dummy.m"; path = "Pods-ArticleReaderTests-dummy.m"; sourceTree = SOURCE_ROOT; };
+		70AAC209BC28444EBBF14ACB /* KWStringUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWStringUtilities.h; path = Kiwi/Classes/KWStringUtilities.h; sourceTree = SOURCE_ROOT; };
+		716775E6A5BC47B5947F8852 /* KWCountType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWCountType.h; path = Kiwi/Classes/KWCountType.h; sourceTree = SOURCE_ROOT; };
+		7354A4D5CBA142B2A8825ECF /* KWSymbolicator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWSymbolicator.m; path = Kiwi/Classes/KWSymbolicator.m; sourceTree = SOURCE_ROOT; };
+		788BDFA5680B421BB3858A86 /* KWVerifying.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWVerifying.h; path = Kiwi/Classes/KWVerifying.h; sourceTree = SOURCE_ROOT; };
+		7A44CA6B6526436EB6DEE2D5 /* KWMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWMatcher.m; path = Kiwi/Classes/KWMatcher.m; sourceTree = SOURCE_ROOT; };
+		7D384F7A33FC4E4FA825046C /* KWDeviceInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWDeviceInfo.h; path = Kiwi/Classes/KWDeviceInfo.h; sourceTree = SOURCE_ROOT; };
+		7F8C12B5C11A47AFB10DFB70 /* KWMock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWMock.h; path = Kiwi/Classes/KWMock.h; sourceTree = SOURCE_ROOT; };
+		7FF1D4162CEE4AACB376A19E /* KWMessagePattern.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWMessagePattern.m; path = Kiwi/Classes/KWMessagePattern.m; sourceTree = SOURCE_ROOT; };
+		7FFB9D94CB2745C896BA85F1 /* KWContextNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWContextNode.m; path = Kiwi/Classes/KWContextNode.m; sourceTree = SOURCE_ROOT; };
+		83978CB9F5ED41E8941E62A1 /* KWEqualMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWEqualMatcher.h; path = Kiwi/Classes/KWEqualMatcher.h; sourceTree = SOURCE_ROOT; };
+		89631F58716D4C49B7F98232 /* KWBeMemberOfClassMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWBeMemberOfClassMatcher.h; path = Kiwi/Classes/KWBeMemberOfClassMatcher.h; sourceTree = SOURCE_ROOT; };
+		8BBE7E2CBE9C4101874689E4 /* KWBeSubclassOfClassMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWBeSubclassOfClassMatcher.h; path = Kiwi/Classes/KWBeSubclassOfClassMatcher.h; sourceTree = SOURCE_ROOT; };
+		8CC810203D25415FB4890548 /* REUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = REUtil.h; path = REKit/REKit/REUtil.h; sourceTree = SOURCE_ROOT; };
+		92D344A0BE3F4A96B09FB3C7 /* KWWorkarounds.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWWorkarounds.h; path = Kiwi/Classes/KWWorkarounds.h; sourceTree = SOURCE_ROOT; };
+		93A86ACC52E04BF6AD5798AA /* KWFailure.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWFailure.h; path = Kiwi/Classes/KWFailure.h; sourceTree = SOURCE_ROOT; };
+		93B928EC95E843C2BD05616F /* libPods-ArticleReaderTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ArticleReaderTests.a"; path = "libPods-ArticleReaderTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93E081207D6D4FABABEB306F /* KWBlockNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWBlockNode.h; path = Kiwi/Classes/KWBlockNode.h; sourceTree = SOURCE_ROOT; };
+		94EFEACD6F894E55AA0FE9B3 /* KWGenericMatchEvaluator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWGenericMatchEvaluator.h; path = Kiwi/Classes/KWGenericMatchEvaluator.h; sourceTree = SOURCE_ROOT; };
+		96AC7B279E23458EAF4DE987 /* KWGenericMatchingAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWGenericMatchingAdditions.m; path = Kiwi/Classes/KWGenericMatchingAdditions.m; sourceTree = SOURCE_ROOT; };
+		97E1467732994E879BBE858A /* NSObject+REObserver.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+REObserver.m"; path = "REKit/REKit/NSObject+REObserver.m"; sourceTree = SOURCE_ROOT; };
+		9D1DBA3A10EF49548990E2E0 /* NSMethodSignature+KiwiAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMethodSignature+KiwiAdditions.m"; path = "Kiwi/Classes/NSMethodSignature+KiwiAdditions.m"; sourceTree = SOURCE_ROOT; };
+		9E21D90DC7C14A77BD5D3E04 /* KWGenericMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWGenericMatcher.h; path = Kiwi/Classes/KWGenericMatcher.h; sourceTree = SOURCE_ROOT; };
+		A089C1D6E97643ED8048FB0C /* KWUserDefinedMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWUserDefinedMatcher.m; path = Kiwi/Classes/KWUserDefinedMatcher.m; sourceTree = SOURCE_ROOT; };
+		A18A7D4792EE4E0399A4202D /* KWMessageSpying.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWMessageSpying.h; path = Kiwi/Classes/KWMessageSpying.h; sourceTree = SOURCE_ROOT; };
+		A1C44666614D4105ADE47CBB /* KWMock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWMock.m; path = Kiwi/Classes/KWMock.m; sourceTree = SOURCE_ROOT; };
+		A2EF5E249E044FA49167889F /* KWBeZeroMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWBeZeroMatcher.h; path = Kiwi/Classes/KWBeZeroMatcher.h; sourceTree = SOURCE_ROOT; };
+		A31908D7269C4EDF9ED2AA8B /* KWAsyncVerifier.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWAsyncVerifier.m; path = Kiwi/Classes/KWAsyncVerifier.m; sourceTree = SOURCE_ROOT; };
+		A8DA9612D31A49DFBBF7F641 /* KWNull.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWNull.h; path = Kiwi/Classes/KWNull.h; sourceTree = SOURCE_ROOT; };
+		AC3F1468B96148C8B3170052 /* KWSpec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWSpec.h; path = Kiwi/Classes/KWSpec.h; sourceTree = SOURCE_ROOT; };
+		AFC37103796A4CA482059A4E /* KWMatchers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWMatchers.m; path = Kiwi/Classes/KWMatchers.m; sourceTree = SOURCE_ROOT; };
+		AFEB6BDD08A3491E8C8E2321 /* KWBeEmptyMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWBeEmptyMatcher.h; path = Kiwi/Classes/KWBeEmptyMatcher.h; sourceTree = SOURCE_ROOT; };
+		B1ADBFF2D42446E8AA55FDE4 /* NSObject+KiwiVerifierAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+KiwiVerifierAdditions.h"; path = "Kiwi/Classes/NSObject+KiwiVerifierAdditions.h"; sourceTree = SOURCE_ROOT; };
+		B1CE5245F22443209B73F58A /* KWStub.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWStub.m; path = Kiwi/Classes/KWStub.m; sourceTree = SOURCE_ROOT; };
+		B48331D851B4462EB9142E0C /* NSObject+REObserver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+REObserver.h"; path = "REKit/REKit/NSObject+REObserver.h"; sourceTree = SOURCE_ROOT; };
+		B7B23B8209404B118F13EF59 /* KWTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWTestCase.m; path = Kiwi/Classes/KWTestCase.m; sourceTree = SOURCE_ROOT; };
+		B84195270BF8416A938C1571 /* KWMessagePattern.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWMessagePattern.h; path = Kiwi/Classes/KWMessagePattern.h; sourceTree = SOURCE_ROOT; };
+		BA6A06C72AF64AAABEE387DE /* KWInvocationCapturer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWInvocationCapturer.h; path = Kiwi/Classes/KWInvocationCapturer.h; sourceTree = SOURCE_ROOT; };
+		BD0BE3053D5A4B1AA561EF07 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BEE8C10AEBD142CB9907123A /* Pods-ArticleReaderTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; name = "Pods-ArticleReaderTests-resources.sh"; path = "Pods-ArticleReaderTests-resources.sh"; sourceTree = SOURCE_ROOT; };
+		C0E0F0AFAF684C5C9D6A4954 /* KWFutureObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWFutureObject.m; path = Kiwi/Classes/KWFutureObject.m; sourceTree = SOURCE_ROOT; };
+		C435C0407A0B4C169392433B /* KWItNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWItNode.h; path = Kiwi/Classes/KWItNode.h; sourceTree = SOURCE_ROOT; };
+		C5A022C614BB4F34B8EBC304 /* Pods-ArticleReaderTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; name = "Pods-ArticleReaderTests-acknowledgements.plist"; path = "Pods-ArticleReaderTests-acknowledgements.plist"; sourceTree = SOURCE_ROOT; };
+		C5EA10A4F9E6473482EDAA9D /* KWNull.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWNull.m; path = Kiwi/Classes/KWNull.m; sourceTree = SOURCE_ROOT; };
+		C88F60E883304DD5AD26E44A /* KWUserDefinedMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWUserDefinedMatcher.h; path = Kiwi/Classes/KWUserDefinedMatcher.h; sourceTree = SOURCE_ROOT; };
+		C91DCCDEBB8C4A44991E80EC /* KWContainStringMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWContainStringMatcher.h; path = Kiwi/Classes/KWContainStringMatcher.h; sourceTree = SOURCE_ROOT; };
+		C948B708DE7A470C95DE9329 /* KWInequalityMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWInequalityMatcher.m; path = Kiwi/Classes/KWInequalityMatcher.m; sourceTree = SOURCE_ROOT; };
+		C9E58107E2D74416BB9564F4 /* KWExample.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWExample.m; path = Kiwi/Classes/KWExample.m; sourceTree = SOURCE_ROOT; };
+		CAAE1C0352E646A8994AE509 /* NSObject+KiwiMockAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+KiwiMockAdditions.h"; path = "Kiwi/Classes/NSObject+KiwiMockAdditions.h"; sourceTree = SOURCE_ROOT; };
+		CBF572AF2F2E42CAB153C1AB /* KWProbe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWProbe.h; path = Kiwi/Classes/KWProbe.h; sourceTree = SOURCE_ROOT; };
+		CC3EE6F7F7CE4F4091E24AD5 /* KiwiMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KiwiMacros.h; path = Kiwi/Classes/KiwiMacros.h; sourceTree = SOURCE_ROOT; };
+		CD8162FD69DD4D2BB603C754 /* KWBeEmptyMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWBeEmptyMatcher.m; path = Kiwi/Classes/KWBeEmptyMatcher.m; sourceTree = SOURCE_ROOT; };
+		CE8C88A1B62E474A951521B2 /* KWProbePoller.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWProbePoller.h; path = Kiwi/Classes/KWProbePoller.h; sourceTree = SOURCE_ROOT; };
+		D14A08FF948649269E048F26 /* SenTestSuite+KiwiAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SenTestSuite+KiwiAdditions.h"; path = "Kiwi/Classes/SenTestSuite+KiwiAdditions.h"; sourceTree = SOURCE_ROOT; };
+		D2AEFA3CB7134640A67CFD0C /* KWConformToProtocolMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWConformToProtocolMatcher.m; path = Kiwi/Classes/KWConformToProtocolMatcher.m; sourceTree = SOURCE_ROOT; };
+		D7D27CD9685D401DA20EFC0F /* KWBlockRaiseMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWBlockRaiseMatcher.m; path = Kiwi/Classes/KWBlockRaiseMatcher.m; sourceTree = SOURCE_ROOT; };
+		D805F8D4192A49B38DEFCDD8 /* KWHaveMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWHaveMatcher.m; path = Kiwi/Classes/KWHaveMatcher.m; sourceTree = SOURCE_ROOT; };
+		D8C71D5BDAD74D419E88E59E /* KWBeBetweenMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWBeBetweenMatcher.m; path = Kiwi/Classes/KWBeBetweenMatcher.m; sourceTree = SOURCE_ROOT; };
+		DA9D3F13005D49CCA319F786 /* KWFutureObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWFutureObject.h; path = Kiwi/Classes/KWFutureObject.h; sourceTree = SOURCE_ROOT; };
+		DD0ECAA90F5B41AE84E3EC09 /* KWMessageTracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWMessageTracker.h; path = Kiwi/Classes/KWMessageTracker.h; sourceTree = SOURCE_ROOT; };
+		DD883BBE7E6A4189BCF228E5 /* NSObject+KiwiSpyAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+KiwiSpyAdditions.m"; path = "Kiwi/Classes/NSObject+KiwiSpyAdditions.m"; sourceTree = SOURCE_ROOT; };
+		DE278805050249CBB1AA9837 /* KWAsyncVerifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWAsyncVerifier.h; path = Kiwi/Classes/KWAsyncVerifier.h; sourceTree = SOURCE_ROOT; };
+		DF4541390C8C4CDDA86F2086 /* KWBeZeroMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWBeZeroMatcher.m; path = Kiwi/Classes/KWBeZeroMatcher.m; sourceTree = SOURCE_ROOT; };
+		DF50312DAECB4F70AF6FD6CC /* KWMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWMatcher.h; path = Kiwi/Classes/KWMatcher.h; sourceTree = SOURCE_ROOT; };
+		DFA89103D077478AA7AF75DA /* KWRegularExpressionPatternMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWRegularExpressionPatternMatcher.m; path = Kiwi/Classes/KWRegularExpressionPatternMatcher.m; sourceTree = SOURCE_ROOT; };
+		DFCD76F042054C97835647E4 /* KWValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWValue.h; path = Kiwi/Classes/KWValue.h; sourceTree = SOURCE_ROOT; };
+		DFFAA5FB9BB04E5A9DEB121E /* NSNumber+KiwiAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNumber+KiwiAdditions.m"; path = "Kiwi/Classes/NSNumber+KiwiAdditions.m"; sourceTree = SOURCE_ROOT; };
+		E04344FFBB564849ABE5711E /* NSInvocation+OCMAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSInvocation+OCMAdditions.m"; path = "Kiwi/Classes/NSInvocation+OCMAdditions.m"; sourceTree = SOURCE_ROOT; };
+		E19E8DC3688F4DABB3D2F917 /* NSObject+REResponder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+REResponder.h"; path = "REKit/REKit/NSObject+REResponder.h"; sourceTree = SOURCE_ROOT; };
+		E2297348E40E4F2CBDC9F836 /* REUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = REUtil.m; path = REKit/REKit/REUtil.m; sourceTree = SOURCE_ROOT; };
+		E3B3A234F67E4FBBB92E945C /* KWBeWithinMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWBeWithinMatcher.h; path = Kiwi/Classes/KWBeWithinMatcher.h; sourceTree = SOURCE_ROOT; };
+		E51AF707727D4A03A9958E02 /* KWBlockRaiseMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWBlockRaiseMatcher.h; path = Kiwi/Classes/KWBlockRaiseMatcher.h; sourceTree = SOURCE_ROOT; };
+		E721C890754747C99DE15207 /* KWWorkarounds.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWWorkarounds.m; path = Kiwi/Classes/KWWorkarounds.m; sourceTree = SOURCE_ROOT; };
+		E733550000564102BF6A37E2 /* KWGenericMatchingAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWGenericMatchingAdditions.h; path = Kiwi/Classes/KWGenericMatchingAdditions.h; sourceTree = SOURCE_ROOT; };
+		E7FF16C6C308430699FFFCAB /* KWTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWTestCase.h; path = Kiwi/Classes/KWTestCase.h; sourceTree = SOURCE_ROOT; };
+		E8AB3498BC584006B30894B9 /* KWCallSite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWCallSite.m; path = Kiwi/Classes/KWCallSite.m; sourceTree = SOURCE_ROOT; };
+		EAC05AA4EAB047F4AEB58E7F /* KWExampleNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWExampleNode.h; path = Kiwi/Classes/KWExampleNode.h; sourceTree = SOURCE_ROOT; };
+		EAF60417E6B54970A5A6ACFB /* KWFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWFormatter.m; path = Kiwi/Classes/KWFormatter.m; sourceTree = SOURCE_ROOT; };
+		EC5DFB967D054C9892FA5823 /* Pods-ArticleReaderTests-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; name = "Pods-ArticleReaderTests-prefix.pch"; path = "Pods-ArticleReaderTests-prefix.pch"; sourceTree = SOURCE_ROOT; };
+		ED11C5A1BDC344D3B7A5C74E /* Foundation.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		EE26E9AFF2334FE6A34F8A2E /* NSObject+KiwiVerifierAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+KiwiVerifierAdditions.m"; path = "Kiwi/Classes/NSObject+KiwiVerifierAdditions.m"; sourceTree = SOURCE_ROOT; };
+		EFE6DC462E674555B03B1E3A /* NSProxy+KiwiVerifierAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSProxy+KiwiVerifierAdditions.m"; path = "Kiwi/Classes/NSProxy+KiwiVerifierAdditions.m"; sourceTree = SOURCE_ROOT; };
+		F19CC0ADAA064CFABCFB0953 /* KWRaiseMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWRaiseMatcher.h; path = Kiwi/Classes/KWRaiseMatcher.h; sourceTree = SOURCE_ROOT; };
+		F27A27AB990A4E77A753D167 /* NSObject+KiwiStubAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+KiwiStubAdditions.m"; path = "Kiwi/Classes/NSObject+KiwiStubAdditions.m"; sourceTree = SOURCE_ROOT; };
+		F2BC264197FD49EBBB85FD7E /* KWRespondToSelectorMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWRespondToSelectorMatcher.h; path = Kiwi/Classes/KWRespondToSelectorMatcher.h; sourceTree = SOURCE_ROOT; };
+		F355110C1EB0484293771B6B /* KWBeMemberOfClassMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWBeMemberOfClassMatcher.m; path = Kiwi/Classes/KWBeMemberOfClassMatcher.m; sourceTree = SOURCE_ROOT; };
+		F3E787A3836142B8B21FC67E /* KWReceiveMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWReceiveMatcher.m; path = Kiwi/Classes/KWReceiveMatcher.m; sourceTree = SOURCE_ROOT; };
+		F4BFD5DBF1AB4B568C079D1A /* KWReceiveMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWReceiveMatcher.h; path = Kiwi/Classes/KWReceiveMatcher.h; sourceTree = SOURCE_ROOT; };
+		F65535EC24E34C2FA3DC3627 /* Pods-ArticleReaderTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArticleReaderTests.xcconfig"; path = "Pods-ArticleReaderTests.xcconfig"; sourceTree = SOURCE_ROOT; };
+		F67AC6F1474E4EB3A252C554 /* KWAfterEachNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWAfterEachNode.h; path = Kiwi/Classes/KWAfterEachNode.h; sourceTree = SOURCE_ROOT; };
+		F75780891FF242F2B07ECD81 /* KWBlockNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWBlockNode.m; path = Kiwi/Classes/KWBlockNode.m; sourceTree = SOURCE_ROOT; };
+		F8C98EB17D5B430DA9F0AF16 /* KWItNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWItNode.m; path = Kiwi/Classes/KWItNode.m; sourceTree = SOURCE_ROOT; };
+		F908AFAB92434712857D10BF /* KWBlock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWBlock.h; path = Kiwi/Classes/KWBlock.h; sourceTree = SOURCE_ROOT; };
+		F9759C51A7FF41CAA7F57A0F /* KWIntercept.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWIntercept.m; path = Kiwi/Classes/KWIntercept.m; sourceTree = SOURCE_ROOT; };
+		F98DEC1DA9084201B827422B /* KWMatchVerifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWMatchVerifier.h; path = Kiwi/Classes/KWMatchVerifier.h; sourceTree = SOURCE_ROOT; };
+		FC7DA96676CC4C25BE352A76 /* KWRegisterMatchersNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWRegisterMatchersNode.m; path = Kiwi/Classes/KWRegisterMatchersNode.m; sourceTree = SOURCE_ROOT; };
+		FDB0527F56E04BA7B7FB569D /* KWBeBetweenMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWBeBetweenMatcher.h; path = Kiwi/Classes/KWBeBetweenMatcher.h; sourceTree = SOURCE_ROOT; };
+		FF6D4644D5F846DE8FCCCB65 /* KWGenericMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWGenericMatcher.m; path = Kiwi/Classes/KWGenericMatcher.m; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B2D392A8B454406BFA0A8D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5958EB0F9004430BB54CA3A2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B70E6D42FD04ED48D862884 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F0D534B56EA44F6F8FC4BCC4 /* Pods-ArticleReaderTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3D024A9D57104967A461E4C0 /* Kiwi */ = {
+			isa = PBXGroup;
+			children = (
+				5819110F5D474E16945B045D /* Kiwi.h */,
+				26A617AE66E54701B6D75703 /* KiwiBlockMacros.h */,
+				460D5CE329C249198BEE3062 /* KiwiConfiguration.h */,
+				CC3EE6F7F7CE4F4091E24AD5 /* KiwiMacros.h */,
+				34B599C043A6410E9442C2C8 /* KWAfterAllNode.h */,
+				3911D75B15264FB09D2BFA1E /* KWAfterAllNode.m */,
+				F67AC6F1474E4EB3A252C554 /* KWAfterEachNode.h */,
+				3E4002F08D4945C4916CD412 /* KWAfterEachNode.m */,
+				03056556AE3546C8B600F184 /* KWAny.h */,
+				5B300FFC6391436AA8EA9AD3 /* KWAny.m */,
+				DE278805050249CBB1AA9837 /* KWAsyncVerifier.h */,
+				A31908D7269C4EDF9ED2AA8B /* KWAsyncVerifier.m */,
+				FDB0527F56E04BA7B7FB569D /* KWBeBetweenMatcher.h */,
+				D8C71D5BDAD74D419E88E59E /* KWBeBetweenMatcher.m */,
+				AFEB6BDD08A3491E8C8E2321 /* KWBeEmptyMatcher.h */,
+				CD8162FD69DD4D2BB603C754 /* KWBeEmptyMatcher.m */,
+				6F70A6C2844D4853ABE8637C /* KWBeforeAllNode.h */,
+				4BFD07B82F114D21B61037A2 /* KWBeforeAllNode.m */,
+				485361C1399B43BD87A6E1EE /* KWBeforeEachNode.h */,
+				1CB05A44BA06444195F24259 /* KWBeforeEachNode.m */,
+				0C8CD170400C42118573F67C /* KWBeIdenticalToMatcher.h */,
+				453F76AE30564FCEB0C3EA3C /* KWBeIdenticalToMatcher.m */,
+				1E5321A76D64418CBE6B9BE1 /* KWBeKindOfClassMatcher.h */,
+				1BA2761F55D3479C92474485 /* KWBeKindOfClassMatcher.m */,
+				89631F58716D4C49B7F98232 /* KWBeMemberOfClassMatcher.h */,
+				F355110C1EB0484293771B6B /* KWBeMemberOfClassMatcher.m */,
+				8BBE7E2CBE9C4101874689E4 /* KWBeSubclassOfClassMatcher.h */,
+				458F9272AE8A4B3B90101041 /* KWBeSubclassOfClassMatcher.m */,
+				1C4A22A6135F420C847FAF3C /* KWBeTrueMatcher.h */,
+				12E3BCFC38B9409F95105694 /* KWBeTrueMatcher.m */,
+				E3B3A234F67E4FBBB92E945C /* KWBeWithinMatcher.h */,
+				0C5136A670CF4E52A28E8D09 /* KWBeWithinMatcher.m */,
+				A2EF5E249E044FA49167889F /* KWBeZeroMatcher.h */,
+				DF4541390C8C4CDDA86F2086 /* KWBeZeroMatcher.m */,
+				F908AFAB92434712857D10BF /* KWBlock.h */,
+				3163CC3DD588462BA7B9097C /* KWBlock.m */,
+				93E081207D6D4FABABEB306F /* KWBlockNode.h */,
+				F75780891FF242F2B07ECD81 /* KWBlockNode.m */,
+				E51AF707727D4A03A9958E02 /* KWBlockRaiseMatcher.h */,
+				D7D27CD9685D401DA20EFC0F /* KWBlockRaiseMatcher.m */,
+				59A98D693ACB4356A4B84022 /* KWCallSite.h */,
+				E8AB3498BC584006B30894B9 /* KWCallSite.m */,
+				525301E0E41544BB92D69BE7 /* KWCaptureSpy.h */,
+				6A7083FEFA764729A5C55884 /* KWCaptureSpy.m */,
+				0DFACF86F90D4ECD829727C3 /* KWChangeMatcher.h */,
+				2EB1EC596E3B48ED9E19FB39 /* KWChangeMatcher.m */,
+				4B1E5E6A08AA461FB76660A4 /* KWConformToProtocolMatcher.h */,
+				D2AEFA3CB7134640A67CFD0C /* KWConformToProtocolMatcher.m */,
+				10144F0F8E0043B395DAC39B /* KWContainMatcher.h */,
+				4979F6018C3E417D9753E813 /* KWContainMatcher.m */,
+				C91DCCDEBB8C4A44991E80EC /* KWContainStringMatcher.h */,
+				08D83D173DB64B5F98FE5AE0 /* KWContainStringMatcher.m */,
+				4BD466FA49CC4D6D892A117F /* KWContextNode.h */,
+				7FFB9D94CB2745C896BA85F1 /* KWContextNode.m */,
+				716775E6A5BC47B5947F8852 /* KWCountType.h */,
+				7D384F7A33FC4E4FA825046C /* KWDeviceInfo.h */,
+				0EA918CCA66B426D83C502EF /* KWDeviceInfo.m */,
+				83978CB9F5ED41E8941E62A1 /* KWEqualMatcher.h */,
+				6F095863C88C4F43A43B77B1 /* KWEqualMatcher.m */,
+				52866CE6A873424698186878 /* KWExample.h */,
+				C9E58107E2D74416BB9564F4 /* KWExample.m */,
+				66249300FEE34BB6A6A5F52E /* KWExampleGroupBuilder.h */,
+				008BE56939704EBF83C95D35 /* KWExampleGroupBuilder.m */,
+				4D94FC33F06A475B8730DCFF /* KWExampleGroupDelegate.h */,
+				EAC05AA4EAB047F4AEB58E7F /* KWExampleNode.h */,
+				224C52DEC4C54F1CB5C3BEE9 /* KWExampleNodeVisitor.h */,
+				6E332105E1DD46B285C3D8CF /* KWExampleSuite.h */,
+				69009AA669874443B604C644 /* KWExampleSuite.m */,
+				0D4CC5E25A9B496C87BBA47E /* KWExistVerifier.h */,
+				5D439D400D654116A03BBE41 /* KWExistVerifier.m */,
+				3B9625F235694AAEBF8931EF /* KWExpectationType.h */,
+				93A86ACC52E04BF6AD5798AA /* KWFailure.h */,
+				5A38D045B525421DAD0C7E78 /* KWFailure.m */,
+				537DE4E20C4C4DAB87EB61F6 /* KWFormatter.h */,
+				EAF60417E6B54970A5A6ACFB /* KWFormatter.m */,
+				DA9D3F13005D49CCA319F786 /* KWFutureObject.h */,
+				C0E0F0AFAF684C5C9D6A4954 /* KWFutureObject.m */,
+				9E21D90DC7C14A77BD5D3E04 /* KWGenericMatcher.h */,
+				FF6D4644D5F846DE8FCCCB65 /* KWGenericMatcher.m */,
+				94EFEACD6F894E55AA0FE9B3 /* KWGenericMatchEvaluator.h */,
+				3C9E4514CDAB49DF8487902E /* KWGenericMatchEvaluator.m */,
+				E733550000564102BF6A37E2 /* KWGenericMatchingAdditions.h */,
+				96AC7B279E23458EAF4DE987 /* KWGenericMatchingAdditions.m */,
+				43E1659782864B99BBC66F61 /* KWHaveMatcher.h */,
+				D805F8D4192A49B38DEFCDD8 /* KWHaveMatcher.m */,
+				43B8B42833384876B06687D1 /* KWHaveValueMatcher.h */,
+				14BEFE15F83441CBA9390528 /* KWHaveValueMatcher.m */,
+				49C24F773D644F59A372C26C /* KWInequalityMatcher.h */,
+				C948B708DE7A470C95DE9329 /* KWInequalityMatcher.m */,
+				3AC04BCC75CD4F1EB9C744A9 /* KWIntercept.h */,
+				F9759C51A7FF41CAA7F57A0F /* KWIntercept.m */,
+				BA6A06C72AF64AAABEE387DE /* KWInvocationCapturer.h */,
+				558E5C624C684C70B17F8A7E /* KWInvocationCapturer.m */,
+				C435C0407A0B4C169392433B /* KWItNode.h */,
+				F8C98EB17D5B430DA9F0AF16 /* KWItNode.m */,
+				DF50312DAECB4F70AF6FD6CC /* KWMatcher.h */,
+				7A44CA6B6526436EB6DEE2D5 /* KWMatcher.m */,
+				1AFCC67B9E344743A162DA0F /* KWMatcherFactory.h */,
+				0FA6F3F3AC65469FB914BC3F /* KWMatcherFactory.m */,
+				0C4FA30F74EF41309C6B709F /* KWMatchers.h */,
+				AFC37103796A4CA482059A4E /* KWMatchers.m */,
+				5682E07089764958A117755E /* KWMatching.h */,
+				F98DEC1DA9084201B827422B /* KWMatchVerifier.h */,
+				5383E219FFA44FDE8AEA93C3 /* KWMatchVerifier.m */,
+				B84195270BF8416A938C1571 /* KWMessagePattern.h */,
+				7FF1D4162CEE4AACB376A19E /* KWMessagePattern.m */,
+				A18A7D4792EE4E0399A4202D /* KWMessageSpying.h */,
+				DD0ECAA90F5B41AE84E3EC09 /* KWMessageTracker.h */,
+				38D67DD9BD334811B84BDCBB /* KWMessageTracker.m */,
+				7F8C12B5C11A47AFB10DFB70 /* KWMock.h */,
+				A1C44666614D4105ADE47CBB /* KWMock.m */,
+				A8DA9612D31A49DFBBF7F641 /* KWNull.h */,
+				C5EA10A4F9E6473482EDAA9D /* KWNull.m */,
+				4E11899E30C54F2F9F249CAD /* KWObjCUtilities.h */,
+				6015956D0EBE4737841616C9 /* KWObjCUtilities.m */,
+				49C94B37CD9440C5A8BD95A9 /* KWPendingNode.h */,
+				6E7DEB5466F1485C9F979F07 /* KWPendingNode.m */,
+				CBF572AF2F2E42CAB153C1AB /* KWProbe.h */,
+				CE8C88A1B62E474A951521B2 /* KWProbePoller.h */,
+				520A3FB996F94C9486BD6D6B /* KWProbePoller.m */,
+				F19CC0ADAA064CFABCFB0953 /* KWRaiseMatcher.h */,
+				14E769C8AC6E4B47887D68B7 /* KWRaiseMatcher.m */,
+				F4BFD5DBF1AB4B568C079D1A /* KWReceiveMatcher.h */,
+				F3E787A3836142B8B21FC67E /* KWReceiveMatcher.m */,
+				4B81027A39B24175ABA4AEFE /* KWRegisterMatchersNode.h */,
+				FC7DA96676CC4C25BE352A76 /* KWRegisterMatchersNode.m */,
+				2E3BCFE2E10948458ECD6DF0 /* KWRegularExpressionPatternMatcher.h */,
+				DFA89103D077478AA7AF75DA /* KWRegularExpressionPatternMatcher.m */,
+				66396E3DA1CD4F17B00AB558 /* KWReporting.h */,
+				F2BC264197FD49EBBB85FD7E /* KWRespondToSelectorMatcher.h */,
+				4EEF9C63F47849FBAEC7B0FB /* KWRespondToSelectorMatcher.m */,
+				AC3F1468B96148C8B3170052 /* KWSpec.h */,
+				3DAA71DD22A0408EBD3FA0E3 /* KWSpec.m */,
+				3286A09F12AD423F98C91867 /* KWStringContainsMatcher.h */,
+				07B653EBBC534927BB0DFFAA /* KWStringContainsMatcher.m */,
+				01792069606143D19FD2203F /* KWStringPrefixMatcher.h */,
+				5DF75102D35243019EFD3C2A /* KWStringPrefixMatcher.m */,
+				70AAC209BC28444EBBF14ACB /* KWStringUtilities.h */,
+				6CC5AC51999F4CF0B4FED46F /* KWStringUtilities.m */,
+				572D71C217784D4D994AADBD /* KWStub.h */,
+				B1CE5245F22443209B73F58A /* KWStub.m */,
+				320009DB987A4C43861F00A9 /* KWSymbolicator.h */,
+				7354A4D5CBA142B2A8825ECF /* KWSymbolicator.m */,
+				E7FF16C6C308430699FFFCAB /* KWTestCase.h */,
+				B7B23B8209404B118F13EF59 /* KWTestCase.m */,
+				C88F60E883304DD5AD26E44A /* KWUserDefinedMatcher.h */,
+				A089C1D6E97643ED8048FB0C /* KWUserDefinedMatcher.m */,
+				DFCD76F042054C97835647E4 /* KWValue.h */,
+				1D585B62C349421AB810C49C /* KWValue.m */,
+				788BDFA5680B421BB3858A86 /* KWVerifying.h */,
+				92D344A0BE3F4A96B09FB3C7 /* KWWorkarounds.h */,
+				E721C890754747C99DE15207 /* KWWorkarounds.m */,
+				2BE0049275B74C0B9ABA30F3 /* NSInvocation+KiwiAdditions.h */,
+				2026A9D94C4F454FB2D308A5 /* NSInvocation+KiwiAdditions.m */,
+				5480272B5F004E17B6F47911 /* NSInvocation+OCMAdditions.h */,
+				E04344FFBB564849ABE5711E /* NSInvocation+OCMAdditions.m */,
+				20AD2582B44F4A3D8C80B078 /* NSMethodSignature+KiwiAdditions.h */,
+				9D1DBA3A10EF49548990E2E0 /* NSMethodSignature+KiwiAdditions.m */,
+				0C86E8334F0249BE9E732E92 /* NSNumber+KiwiAdditions.h */,
+				DFFAA5FB9BB04E5A9DEB121E /* NSNumber+KiwiAdditions.m */,
+				CAAE1C0352E646A8994AE509 /* NSObject+KiwiMockAdditions.h */,
+				2CE118E244B642B4A1112917 /* NSObject+KiwiMockAdditions.m */,
+				4BFB993E4FA3419295973473 /* NSObject+KiwiSpyAdditions.h */,
+				DD883BBE7E6A4189BCF228E5 /* NSObject+KiwiSpyAdditions.m */,
+				02E1EB880B9B4BCF98BA7CC1 /* NSObject+KiwiStubAdditions.h */,
+				F27A27AB990A4E77A753D167 /* NSObject+KiwiStubAdditions.m */,
+				B1ADBFF2D42446E8AA55FDE4 /* NSObject+KiwiVerifierAdditions.h */,
+				EE26E9AFF2334FE6A34F8A2E /* NSObject+KiwiVerifierAdditions.m */,
+				41B3115C28C04FA58B16C13C /* NSProxy+KiwiVerifierAdditions.h */,
+				EFE6DC462E674555B03B1E3A /* NSProxy+KiwiVerifierAdditions.m */,
+				3A9DF112FDA14926AABFD5C9 /* NSValue+KiwiAdditions.h */,
+				06595801304C4DE5827693EE /* NSValue+KiwiAdditions.m */,
+				D14A08FF948649269E048F26 /* SenTestSuite+KiwiAdditions.h */,
+				6AC9FEFB6D314FD8B1782159 /* SenTestSuite+KiwiAdditions.m */,
+			);
+			name = Kiwi;
+			sourceTree = "<group>";
+		};
+		628559A2F58B4C41B4C3B3B9 /* REKit */ = {
+			isa = PBXGroup;
+			children = (
+				B48331D851B4462EB9142E0C /* NSObject+REObserver.h */,
+				97E1467732994E879BBE858A /* NSObject+REObserver.m */,
+				E19E8DC3688F4DABB3D2F917 /* NSObject+REResponder.h */,
+				1419F55E30B048068EE55AC5 /* NSObject+REResponder.m */,
+				375295A2831D40C3A833A4C3 /* REKit.h */,
+				8CC810203D25415FB4890548 /* REUtil.h */,
+				E2297348E40E4F2CBDC9F836 /* REUtil.m */,
+			);
+			name = REKit;
+			sourceTree = "<group>";
+		};
+		86F9008FCD3F4000BDBBF540 = {
+			isa = PBXGroup;
+			children = (
+				FB43581608054E5EB7037EC0 /* Frameworks */,
+				9ED0C25849A349B5BA14E54E /* Pods */,
+				8A1423B1C1BA4DBB9393BC40 /* Products */,
+				2B70E6D42FD04ED48D862884 /* Targets Support Files */,
+				BD0BE3053D5A4B1AA561EF07 /* Podfile */,
+			);
+			sourceTree = "<group>";
+		};
+		8A1423B1C1BA4DBB9393BC40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93B928EC95E843C2BD05616F /* libPods-ArticleReaderTests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9ED0C25849A349B5BA14E54E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3D024A9D57104967A461E4C0 /* Kiwi */,
+				628559A2F58B4C41B4C3B3B9 /* REKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F0D534B56EA44F6F8FC4BCC4 /* Pods-ArticleReaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				F65535EC24E34C2FA3DC3627 /* Pods-ArticleReaderTests.xcconfig */,
+				1A8C226797C144B9AB0AC859 /* Pods-ArticleReaderTests-environment.h */,
+				EC5DFB967D054C9892FA5823 /* Pods-ArticleReaderTests-prefix.pch */,
+				BEE8C10AEBD142CB9907123A /* Pods-ArticleReaderTests-resources.sh */,
+				C5A022C614BB4F34B8EBC304 /* Pods-ArticleReaderTests-acknowledgements.plist */,
+				5534AD6101BD40C4AB2420A5 /* Pods-ArticleReaderTests-acknowledgements.markdown */,
+				6FE57457E7874CD0A2045477 /* Pods-ArticleReaderTests-dummy.m */,
+			);
+			name = "Pods-ArticleReaderTests";
+			sourceTree = "<group>";
+		};
+		FB43581608054E5EB7037EC0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED11C5A1BDC344D3B7A5C74E /* Foundation.framework */,
+				2E14EB71A2274DC1AE6128B1 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		55D46E37DD3643548CE5E0B0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				132C1E19CAFA452EB30CB73F /* Kiwi.h in Headers */,
+				507DA1D076724AFE87DB33E5 /* KiwiBlockMacros.h in Headers */,
+				F595BC70993C4C32A6B3C8A3 /* KiwiConfiguration.h in Headers */,
+				1DD603DECCFA40559E121351 /* KiwiMacros.h in Headers */,
+				0E1C236876C745C18B5A6443 /* KWAfterAllNode.h in Headers */,
+				40500AB5B5A64DA5B714D4D0 /* KWAfterEachNode.h in Headers */,
+				09F71F363B114ADE868A587A /* KWAny.h in Headers */,
+				F78A8BFB544648AC8B0DDCEF /* KWAsyncVerifier.h in Headers */,
+				3AB8DA9C27FB481A8323CFB2 /* KWBeBetweenMatcher.h in Headers */,
+				EF3B1C1681B844D9BB5DFD9B /* KWBeEmptyMatcher.h in Headers */,
+				67E82C8C8C884F16A25527D8 /* KWBeforeAllNode.h in Headers */,
+				7A0D847480A149E78CB1D81D /* KWBeforeEachNode.h in Headers */,
+				8207C6006B9C47698682B713 /* KWBeIdenticalToMatcher.h in Headers */,
+				4246E486E6E641999390F3E8 /* KWBeKindOfClassMatcher.h in Headers */,
+				B6BBD51F52DC4E20BB588B50 /* KWBeMemberOfClassMatcher.h in Headers */,
+				A228A24F32D94DF6B4AE7E46 /* KWBeSubclassOfClassMatcher.h in Headers */,
+				8037012A920E452D8E9F7149 /* KWBeTrueMatcher.h in Headers */,
+				84E8E1EB957E48AA901EAAB1 /* KWBeWithinMatcher.h in Headers */,
+				EDAC20DDF3EE47448C876668 /* KWBeZeroMatcher.h in Headers */,
+				E56B1DB3B7674547B596FD07 /* KWBlock.h in Headers */,
+				1F88F279AD6F4BA990B2320D /* KWBlockNode.h in Headers */,
+				237D11F92D6F48BABDC675E3 /* KWBlockRaiseMatcher.h in Headers */,
+				09F89D2CD01C4CA6B42CA129 /* KWCallSite.h in Headers */,
+				BFBF9F37DB7049DE81BF4A44 /* KWCaptureSpy.h in Headers */,
+				B6661AB3CF1740A2ACE0FDD9 /* KWChangeMatcher.h in Headers */,
+				756869108F194A07A87AB8F4 /* KWConformToProtocolMatcher.h in Headers */,
+				CDBFA05E8CCF4A14BFCBFAA0 /* KWContainMatcher.h in Headers */,
+				4D6EA91BCC5D449BBC685EC2 /* KWContainStringMatcher.h in Headers */,
+				1FE95E5A20584ACE8FFD1EF7 /* KWContextNode.h in Headers */,
+				3DF31751A53F4BDCB443BB3D /* KWCountType.h in Headers */,
+				9F6C71C3C39C4CF69231AFED /* KWDeviceInfo.h in Headers */,
+				01D5DF66801143A2AF8BAAA2 /* KWEqualMatcher.h in Headers */,
+				0C2CF7BD03A14A5E8DFF5A5F /* KWExample.h in Headers */,
+				2C7E144192E94182A79B112F /* KWExampleGroupBuilder.h in Headers */,
+				D7341E9BF01D4B06A3FBA47A /* KWExampleGroupDelegate.h in Headers */,
+				98415F8F5AAE4E52A69B7158 /* KWExampleNode.h in Headers */,
+				5CB11F4BCF8441E0BE0BDD25 /* KWExampleNodeVisitor.h in Headers */,
+				5227C1DA32AC45F28BF9F669 /* KWExampleSuite.h in Headers */,
+				FB357E7F0A7D4B069A3E466F /* KWExistVerifier.h in Headers */,
+				07197AB37EF44419ABC4E043 /* KWExpectationType.h in Headers */,
+				1D236714851D45889F095C79 /* KWFailure.h in Headers */,
+				A9766F56800344179C7E139A /* KWFormatter.h in Headers */,
+				CC2CAD5DC6AF49ECA7231608 /* KWFutureObject.h in Headers */,
+				9A45C34BF00C4BA09D9A8038 /* KWGenericMatcher.h in Headers */,
+				F0F71E8EADC74497BFBA837F /* KWGenericMatchEvaluator.h in Headers */,
+				DFD22F23DE8248BFA6537DF8 /* KWGenericMatchingAdditions.h in Headers */,
+				7E974C1C0F584A6FA4D1CEBA /* KWHaveMatcher.h in Headers */,
+				F7675C2119E74A0482C7D413 /* KWHaveValueMatcher.h in Headers */,
+				4A31F73AA8594A2D8A459AAF /* KWInequalityMatcher.h in Headers */,
+				E30310C0A97343FCBEB78217 /* KWIntercept.h in Headers */,
+				CB11C4AF48AA4877AAC00577 /* KWInvocationCapturer.h in Headers */,
+				966AE64F214042FEAD1F26B6 /* KWItNode.h in Headers */,
+				0EDC6965DEC64E90A8E5B76C /* KWMatcher.h in Headers */,
+				37CA04D7AA0D452F8472F744 /* KWMatcherFactory.h in Headers */,
+				CAFAF082C1054C72B26D9286 /* KWMatchers.h in Headers */,
+				52EC01B079524AB184799BE8 /* KWMatching.h in Headers */,
+				82239972B2324B9DAFFA0883 /* KWMatchVerifier.h in Headers */,
+				9732FBA844DF408C99525A3A /* KWMessagePattern.h in Headers */,
+				F30D4BC6143D4F79A7F6F0A2 /* KWMessageSpying.h in Headers */,
+				1EF131DB948B4D27A8E68C41 /* KWMessageTracker.h in Headers */,
+				6E6FAF8CBEA5448584CE5370 /* KWMock.h in Headers */,
+				BFBE59A599EC418A947CE883 /* KWNull.h in Headers */,
+				30096D27162F43768B8C6872 /* KWObjCUtilities.h in Headers */,
+				ED8FBAD07E574353B962D9DB /* KWPendingNode.h in Headers */,
+				E1B6BCD62E814528B1F5D8B5 /* KWProbe.h in Headers */,
+				DF72CDCAED774F48A56F9767 /* KWProbePoller.h in Headers */,
+				8722294EBB044EA1BAF13F99 /* KWRaiseMatcher.h in Headers */,
+				5A7BF00F6B7A4954A69F5257 /* KWReceiveMatcher.h in Headers */,
+				1AF1D23119E64CFEA4DD35D0 /* KWRegisterMatchersNode.h in Headers */,
+				9F5B8A6D865E4F80979DDEAB /* KWRegularExpressionPatternMatcher.h in Headers */,
+				B7F912B7E3BC4F9BB515BAC6 /* KWReporting.h in Headers */,
+				9EC329AF92A94838BAA1B97C /* KWRespondToSelectorMatcher.h in Headers */,
+				3D93A3A38613444D93A0D851 /* KWSpec.h in Headers */,
+				84CB359D30664EBFA548F6A1 /* KWStringContainsMatcher.h in Headers */,
+				B4799F2CD5E34E9C8D21FE1A /* KWStringPrefixMatcher.h in Headers */,
+				232674091FAA46F7B59219AF /* KWStringUtilities.h in Headers */,
+				F41E4B15C70B49AEB1C13B66 /* KWStub.h in Headers */,
+				C7325D23926A4F31A2B7BDA4 /* KWSymbolicator.h in Headers */,
+				9BAEFD5EC7084FC4B9F47D7C /* KWTestCase.h in Headers */,
+				E6D2D9C1939B47108A375797 /* KWUserDefinedMatcher.h in Headers */,
+				419EC85464B34BE6B9AF85A8 /* KWValue.h in Headers */,
+				6B61A84F12DC44C6BDF4D430 /* KWVerifying.h in Headers */,
+				DC01442F186245F381BFA045 /* KWWorkarounds.h in Headers */,
+				8044A3C207AC4D2BBDB1A84D /* NSInvocation+KiwiAdditions.h in Headers */,
+				C5ED012E64FE4253AB0ED0C9 /* NSInvocation+OCMAdditions.h in Headers */,
+				FA6E23D4F3274407992148F5 /* NSMethodSignature+KiwiAdditions.h in Headers */,
+				0B71B9466C36442290B41D85 /* NSNumber+KiwiAdditions.h in Headers */,
+				F8F275EA917A45CB995E4883 /* NSObject+KiwiMockAdditions.h in Headers */,
+				574336E374204EF3BE83A2EE /* NSObject+KiwiSpyAdditions.h in Headers */,
+				054FD4B36CC244EAB0352A95 /* NSObject+KiwiStubAdditions.h in Headers */,
+				E3CA605BEDA8469492344EB7 /* NSObject+KiwiVerifierAdditions.h in Headers */,
+				95BFFF39914D4358B3F62855 /* NSProxy+KiwiVerifierAdditions.h in Headers */,
+				85ADBE7458CD409CB51C3F7F /* NSValue+KiwiAdditions.h in Headers */,
+				EEA04B52163049E0AA753AA8 /* SenTestSuite+KiwiAdditions.h in Headers */,
+				92EAFE3AE3B34CDAB4B24E31 /* NSObject+REObserver.h in Headers */,
+				BFD80852D98B4914B4437943 /* NSObject+REResponder.h in Headers */,
+				B169C9D53CBB48169175393E /* REKit.h in Headers */,
+				085A20A1CF0147D79AAEB48C /* REUtil.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A51D8D5BEC0E4950958DDADC /* Pods-ArticleReaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AE8786E8ECF4A179DAE6B4D /* Build configuration list for PBXNativeTarget "Pods-ArticleReaderTests" */;
+			buildPhases = (
+				8B0DA14FD4764CAF962E9251 /* Sources */,
+				5B2D392A8B454406BFA0A8D2 /* Frameworks */,
+				55D46E37DD3643548CE5E0B0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ArticleReaderTests";
+			productName = "Pods-ArticleReaderTests";
+			productReference = 93B928EC95E843C2BD05616F /* libPods-ArticleReaderTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC098360178F443386976734 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+			};
+			buildConfigurationList = 749C3BCBD3644F248E4AE65D /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 86F9008FCD3F4000BDBBF540;
+			productRefGroup = 8A1423B1C1BA4DBB9393BC40 /* Products */;
+			projectReferences = (
+			);
+			targets = (
+				A51D8D5BEC0E4950958DDADC /* Pods-ArticleReaderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B0DA14FD4764CAF962E9251 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68C2D735D780443DBF41ACE2 /* KWAfterAllNode.m in Sources */,
+				C523832EC12745E3BF7B3606 /* KWAfterEachNode.m in Sources */,
+				CC1FFFA7ED524233AAC57B08 /* KWAny.m in Sources */,
+				7F3BBE5E2EA1442AB7CDBAA9 /* KWAsyncVerifier.m in Sources */,
+				E5AB9504A7FA4294BF1B7FBB /* KWBeBetweenMatcher.m in Sources */,
+				CE8C3BE9860540F5BFA0E62F /* KWBeEmptyMatcher.m in Sources */,
+				15AFB6525D6E45A48FF6068D /* KWBeforeAllNode.m in Sources */,
+				3807A0C276EC4CA4AF7AF43B /* KWBeforeEachNode.m in Sources */,
+				9C8A0971B63D455285159E53 /* KWBeIdenticalToMatcher.m in Sources */,
+				5FF8F31DAD9A44AF98F613BB /* KWBeKindOfClassMatcher.m in Sources */,
+				1BDC9D2B5025448DA4C92818 /* KWBeMemberOfClassMatcher.m in Sources */,
+				7E5A4CA3E7ED41558064724E /* KWBeSubclassOfClassMatcher.m in Sources */,
+				5041776AE80D44209E88A113 /* KWBeTrueMatcher.m in Sources */,
+				D4DCC3908CB74F17AFC9F06A /* KWBeWithinMatcher.m in Sources */,
+				71D8437BAA664789A2744603 /* KWBeZeroMatcher.m in Sources */,
+				3D5F712EDDA740A095251BA9 /* KWBlock.m in Sources */,
+				39AFBB891141428E958713D7 /* KWBlockNode.m in Sources */,
+				E9024D1F68AE428480234364 /* KWBlockRaiseMatcher.m in Sources */,
+				07737A05445242A69F2E6129 /* KWCallSite.m in Sources */,
+				EFCBE228F28948BFA0CF7ABA /* KWCaptureSpy.m in Sources */,
+				7DD9F1B679C846E4B375E010 /* KWChangeMatcher.m in Sources */,
+				EDCA6325065F4979A3F48710 /* KWConformToProtocolMatcher.m in Sources */,
+				3A3E3FA754C14127896FC983 /* KWContainMatcher.m in Sources */,
+				8588E29889FF4134AF8B7525 /* KWContainStringMatcher.m in Sources */,
+				8FEA948F74404ECD92A585E8 /* KWContextNode.m in Sources */,
+				C09CA1B0F4FD40429844242B /* KWDeviceInfo.m in Sources */,
+				238A41425F0C4016A6CD8D72 /* KWEqualMatcher.m in Sources */,
+				25CAFA3E57B946639B680701 /* KWExample.m in Sources */,
+				8E6606528D544AEDBC965F33 /* KWExampleGroupBuilder.m in Sources */,
+				84B60F064E764A4EB5A787B8 /* KWExampleSuite.m in Sources */,
+				5897A5DBA25B4F7FBF5BE929 /* KWExistVerifier.m in Sources */,
+				AD5CE0CA74A5489CBCCAEF97 /* KWFailure.m in Sources */,
+				3976ED0259BD4A5DB8FFB750 /* KWFormatter.m in Sources */,
+				E4DA3C3270F543BCBA2ACB29 /* KWFutureObject.m in Sources */,
+				C09132BF74E64374A24CF162 /* KWGenericMatcher.m in Sources */,
+				6358AD331EA14953A3060BDD /* KWGenericMatchEvaluator.m in Sources */,
+				595990FA866A4E679F491B6A /* KWGenericMatchingAdditions.m in Sources */,
+				D151FAC100EB49CFB7681E9E /* KWHaveMatcher.m in Sources */,
+				5D90DE3E8718457889191E05 /* KWHaveValueMatcher.m in Sources */,
+				8DD06571E6D3420AA54FBFCC /* KWInequalityMatcher.m in Sources */,
+				5C3E2C89C61543E997CD56A9 /* KWIntercept.m in Sources */,
+				D74E47148DFA4C9B97336BE7 /* KWInvocationCapturer.m in Sources */,
+				A99453567DC743CEA59CB573 /* KWItNode.m in Sources */,
+				F42008C37E15498FBA0B2CDF /* KWMatcher.m in Sources */,
+				B55CC98CBCD64F5B865A4835 /* KWMatcherFactory.m in Sources */,
+				0A45CF716E86429D9F18ED20 /* KWMatchers.m in Sources */,
+				0537292BD9A04AA294DC64E6 /* KWMatchVerifier.m in Sources */,
+				8217F86DC74C4C3FA7F4CB51 /* KWMessagePattern.m in Sources */,
+				8B86DC1979484A64995A0878 /* KWMessageTracker.m in Sources */,
+				6F965CF4F528416F992B0B32 /* KWMock.m in Sources */,
+				1AC2913ED4B84BC28220EA97 /* KWNull.m in Sources */,
+				BCDD2AC309EA4272B8D623BD /* KWObjCUtilities.m in Sources */,
+				8796403BADEF469E9FDEE052 /* KWPendingNode.m in Sources */,
+				40B1ADD82B93437793F081A3 /* KWProbePoller.m in Sources */,
+				8BE190C55B5441BDA2ADF1E5 /* KWRaiseMatcher.m in Sources */,
+				8EC593D684714A899BA79B09 /* KWReceiveMatcher.m in Sources */,
+				95E8B36106E3451EBCED93E5 /* KWRegisterMatchersNode.m in Sources */,
+				9CA6AB185605433FBC01A3A2 /* KWRegularExpressionPatternMatcher.m in Sources */,
+				93DD62D499004138AD4B0485 /* KWRespondToSelectorMatcher.m in Sources */,
+				2B7C5F51CBC54DAB9A5827C8 /* KWSpec.m in Sources */,
+				2D564C16A74F4D51B7791880 /* KWStringContainsMatcher.m in Sources */,
+				E44E4AD93A4347259E3D392D /* KWStringPrefixMatcher.m in Sources */,
+				146A95F4BEB84FC6B39642FE /* KWStringUtilities.m in Sources */,
+				6629785C717A4DBF9CFA0DA9 /* KWStub.m in Sources */,
+				FB321F9837654D4D95CC222F /* KWSymbolicator.m in Sources */,
+				BEA4BFA86C2D4030B28F580F /* KWTestCase.m in Sources */,
+				9E2AB8141C904BD6974125EE /* KWUserDefinedMatcher.m in Sources */,
+				7C1A0AC5F2D641A5AE007C67 /* KWValue.m in Sources */,
+				12933F631181413090297610 /* KWWorkarounds.m in Sources */,
+				3A1322F457F74912B72DD3C8 /* NSInvocation+KiwiAdditions.m in Sources */,
+				928514CB38934E72A371681E /* NSInvocation+OCMAdditions.m in Sources */,
+				60A461F7D92E4080A2AE3AF3 /* NSMethodSignature+KiwiAdditions.m in Sources */,
+				213C644AE04E4A5DBBE023EC /* NSNumber+KiwiAdditions.m in Sources */,
+				01958D91C6574ECBB6536789 /* NSObject+KiwiMockAdditions.m in Sources */,
+				A1CBAE9CDFFB4CD490D0FED3 /* NSObject+KiwiSpyAdditions.m in Sources */,
+				0F8CB29481054DE3A9556D92 /* NSObject+KiwiStubAdditions.m in Sources */,
+				546CA4975F4C4914BD2ED10F /* NSObject+KiwiVerifierAdditions.m in Sources */,
+				74DA03AC1EFE49A0BFD007F5 /* NSProxy+KiwiVerifierAdditions.m in Sources */,
+				247E410130794E2CBC8DB407 /* NSValue+KiwiAdditions.m in Sources */,
+				FA6F655E39D947988B587D4C /* SenTestSuite+KiwiAdditions.m in Sources */,
+				1CD7F548AD7345A8896DD7FC /* NSObject+REObserver.m in Sources */,
+				F548712662F34F158EFA3EFD /* NSObject+REResponder.m in Sources */,
+				BC284344EBB640B3AC6738E2 /* REUtil.m in Sources */,
+				AF450EBDF0254F0A9783E1C5 /* Pods-ArticleReaderTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		72890D98BF984C85810FD0D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Release;
+		};
+		AB3DC7ACF1EB4F65B8D6157F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F65535EC24E34C2FA3DC3627 /* Pods-ArticleReaderTests.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-ArticleReaderTests-prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				PODS_HEADERS_SEARCH_PATHS = "${PODS_BUILD_HEADERS_SEARCH_PATHS}";
+				PODS_ROOT = "${SRCROOT}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE1B0DCE20C44399881FD65D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F65535EC24E34C2FA3DC3627 /* Pods-ArticleReaderTests.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-ArticleReaderTests-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
+				PODS_HEADERS_SEARCH_PATHS = "${PODS_BUILD_HEADERS_SEARCH_PATHS}";
+				PODS_ROOT = "${SRCROOT}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DF1406621C58453A879EBD7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3AE8786E8ECF4A179DAE6B4D /* Build configuration list for PBXNativeTarget "Pods-ArticleReaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB3DC7ACF1EB4F65B8D6157F /* Release */,
+				AE1B0DCE20C44399881FD65D /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		749C3BCBD3644F248E4AE65D /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72890D98BF984C85810FD0D8 /* Release */,
+				DF1406621C58453A879EBD7B /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC098360178F443386976734 /* Project object */;
+}
